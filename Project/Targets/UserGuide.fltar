@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="FlexBar User Guide"
+  Type="PDF"
+  Destinations=""
+  ConditionTagExpression="include[FlexTrade.PrintOnly] "
+  PatchHeadingLevels="true"
+  InjectEmptyPages="true"
+  MasterToc="/Project/TOCs/FlexBar.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/AdministratorFrontMatter.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
+  InjectBookHeadings="true"
+  SyncLingoProject="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="User Guide"
+    Author="FlexTrade Systems, Inc." />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="50"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true"
+    CropAndRegistrationMarks="false"
+    ConvertToCMYK="true"
+    PageLayout="SinglePage" />
+</CatapultTarget>

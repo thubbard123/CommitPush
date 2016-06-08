@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="88" MadCap:lastWidth="958">
+    <head>
+    </head>
+    <body>
+        <p>Click <MadCap:variable name="FlexTrade.Save" style="font-weight: bold;" /> to update the shortcut with the fields you have updated. Clicking <MadCap:variable name="FlexTrade.Cancel" style="font-weight: bold;" /> discards any information you have entered in the fields and returns you to the previous screen.</p>
+    </body>
+</html>

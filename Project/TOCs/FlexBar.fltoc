@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="">
+  <TocEntry
+    Title="TitlePage"
+    BreakType="chapter"
+    PageType="title"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/AdministratorFrontMatter.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    conditions="FlexTrade.PrintOnly"
+    Link="/Content/TitlePage.htm"></TocEntry>
+  <TocEntry
+    Title="Table Of Contents"
+    Link="/Content/TableofContents.htm"
+    conditions="FlexTrade.PrintOnly"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/AdministratorFrontMatter.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false" />
+  <TocEntry
+    Title="Introducing [%=FlexTrade.FlexBar%]"
+    Link="/Content/FlexBarIntroduction.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/AdministratorFrontMatter.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    PageNumber="1"
+    PageType="left"></TocEntry>
+  <TocEntry
+    Title="Adding Navigation"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/AdministratorFrontMatter.flpgl"
+    PageType="continue">
+    <TocEntry
+      Title="Adding Shortcuts"
+      Link="/Content/AddingNavigation/AddingShortcuts.htm" />
+    <TocEntry
+      Title="Adding/Renaming/Deleting Tabs"
+      Link="/Content/AddingNavigation/AddingTabs.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Adding/Updating Actions"
+    BreakType="pageLayout"
+    PageType="left"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/AdministratorFrontMatter.flpgl">
+    <TocEntry
+      Title="Adding or Updating Actions"
+      Link="/Content/AddingUpdatingRules/AddingUpdatingActions.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Importing and Exporting from [%=FlexTrade.FlexTrader%]"
+    ComputeToc="false">
+    <TocEntry
+      Title="Importing/Exporting Configurations to/from [%=FlexTrade.ProductName%]"
+      Link="/Content/ImportingExportingFromFlexTRADER.htm" />
+  </TocEntry>
+</CatapultToc>

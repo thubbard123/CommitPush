@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles MadCap:conditions="General.PDF" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="Left" Width="7in" Height="9in" Padding="20px" PageSize="A4" PageType="left" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
+        <Frame Flow="body" ColumnCount="1" Anchors="" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="0in" Y="0in" Right="-18px" Bottom="0.1145833in" Width="620px" Height="920px">
+        </Frame>
+        <Frame X="0px" Y="-70px" Width="620px" Height="65px" Flow="header" Right="-18px" Bottom="936px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/OrderTypesHeader.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Anchors="" Right="-18px" Bottom="-74px" X="0pt" Y="950px" ColumnCount="1" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" FlowIndex="1" Height="55px" VerticalAlign="top" TextAlign="center" Width="620px" BackgroundType="Solid" BackgroundColor="#ffffff" BackgroundColorAlt="#ffffff">
+            <Content>
+                <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Footer.flsnp" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Right" Width="7in" Height="9in" Padding="20px" PageSize="A4" PageType="right" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="body" ColumnCount="1" Anchors="" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="0in" Y="0in" Right="-0.1875in" Bottom="0.1145833in" Width="620px" Height="920px">
+        </Frame>
+        <Frame X="0px" Y="-70px" Width="620px" Height="65px" Flow="header" Right="-18px" Bottom="936px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/OrderTypesHeader.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="0px" Y="950px" Width="620px" Height="55px" Flow="footer" Right="-18px" Bottom="-74px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Footer.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="First Right" Width="7in" Height="9in" Padding="20px" PageSize="A4" PageType="firstright" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="footer" Anchors="" Right="-0.1875in" Bottom="-74px" X="0in" Y="950px" ColumnCount="1" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" FlowIndex="1" Height="55px" VerticalAlign="top" TextAlign="center" Width="620px">
+            <Content>
+                <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Footer.flsnp" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" Anchors="" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" X="0in" Y="0in" Right="-0.1875in" Bottom="0.1145833in" Width="620px" Height="920px">
+        </Frame>
+        <Frame X="0px" Y="-70px" Width="620px" Height="60px" Flow="header" Right="-18px" Bottom="941px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/OrderTypesHeader.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="7in" Height="9in" Padding="20px" PageSize="A4" PageType="emptyleft" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Name="Empty Left" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame X="0px" Y="950px" Width="620px" Height="55px" Flow="footer" Right="-18px" Bottom="-74px" Anchors="" TextAlign="center" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Footer.flsnp" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="0px" Y="-70px" Width="620px" Height="65px" Flow="header" Right="-18px" Bottom="936px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/OrderTypesHeader.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="264" MadCap:lastWidth="925">
+    <head>
+        <link href="../TableStyles/Warning.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>Import (Quickbar configuration)&#160;from file... - choosing this option allows you to navigate to a location on your machine to import a configuration file into <MadCap:variable name="FlexTrade.ProductName" /> for an entire <MadCap:variable name="FlexTrade.Quickbar" />.</p>
+        <table style="width: 100%;mc-table-style: url('../TableStyles/Warning.css');" class="TableStyle-Warning" cellspacing="0">
+            <col class="TableStyle-Warning-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Warning-Body-Body1">
+                    <td class="TableStyle-Warning-BodyA-Column1-Body1">If your QBXML&#160;file is not properly formatted an error message is shown when you try to import it in to <MadCap:variable name="FlexTrade.ProductName" />. You will not be allowed to import the configuration file until you correct the issue.</td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;mc-table-style: url('../TableStyles/Warning.css');" class="TableStyle-Warning" cellspacing="0">
+            <col class="TableStyle-Warning-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Warning-Body-Body1">
+                    <td class="TableStyle-Warning-BodyA-Column1-Body1">Use caution when importing a configuration file. It will overwrite the current <MadCap:variable name="FlexTrade.Quickbar" /> configuration file. This action cannot be undone.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

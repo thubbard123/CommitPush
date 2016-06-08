@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1021" MadCap:lastWidth="996">
+    <head>
+    </head>
+    <body>
+        <h1>Building a Rule Example</h1>
+        <p>The following example describes how to write a basic rule that calculates the BID - ASK&#160;spread. To create the example rule, from the <MadCap:variable name="FlexTrade.FlexBar" />, do the following:</p>
+        <h2>Create Your Rule</h2>
+        <ol class="listnumber">
+            <li class="numbers" MadCap:autonum=" ">
+                <MadCap:snippetBlock src="Resources/Snippets/RightClickMenu.flsnp" />
+            </li>
+            <li class="numberedlist" MadCap:autonum=" ">For the purposes of this exercise, we're going to first create a new tab. From the menu displayed, choose <MadCap:variable name="FlexTrade.NewTab" />. A new tab is created at the top of the <MadCap:variable name="FlexTrade.FlexBar" />. </li>
+            <li class="numberedlist" MadCap:autonum=" ">Click the <MadCap:variable name="FlexTrade.NewTab" /> and right-click the <MadCap:variable name="FlexTrade.NewShortcut" /> link. The pop-up menu is displayed.</li>
+            <li class="numberedlist" MadCap:autonum=" ">Choose <MadCap:variable name="FlexTrade.EditShortcut" />. The <MadCap:variable name="FlexTrade.ShortcutProperties" /> dialog is displayed. </li>
+            <li class="numberedlist" MadCap:autonum=" ">Under the Actions section of the <MadCap:variable name="FlexTrade.ShortcutProperties" /> dialog enter the following for your new rule<ul><li MadCap:autonum=" ">Label - name your new rule BID-ASK RULE</li><li MadCap:autonum=" ">Rule - enter BID-ASK</li></ul></li>
+            <li class="numberedlist" MadCap:autonum=" ">
+                <MadCap:snippetBlock src="Resources/Snippets/OkCancelButtons.flsnp" />
+            </li>
+        </ol>
+        <h2>Edit Your Rule</h2>
+        <p>After you have created your rule, you must edit it to put some parameters in the rule to have it perform a function in <MadCap:variable name="FlexTrade.ProductName" />. To edit your rule, do the following:</p>
+        <ol class="listnumber">
+            <li class="numberedlist" MadCap:autonum=" ">Right-click the 
+                
+                
+            BID-ASK shortcut again and choose <MadCap:variable name="FlexTrade.EditShortcut" />. The <MadCap:variable name="FlexTrade.ShortcutProperties" /> dialog is displayed again.</li>
+            <li class="numberedlist" MadCap:autonum=" ">Click the <MadCap:variable name="FlexTrade.EditRule" /> button next to Rule you just named. The <MadCap:variable name="FlexTrade.FormulaBuilder" /> is displayed. </li>
+            <li class="numberedlist" MadCap:autonum=" ">Click in the main canvas area of the <MadCap:variable name="FlexTrade.FormulaBuilder" />. Your cursor should be blinking in the canvas.</li>
+            <li class="numberedlist" MadCap:autonum=" ">Type the following in to the canvas:<pre>RETURN (ASK - BID);</pre></li>
+        </ol>
+        <h2>Build Your Rule</h2>
+        <p>Before you can run this rule, you must build it. To build your new rule, do the following:</p>
+        <ol class="listnumber">
+            <li class="numberedlist" MadCap:autonum=" ">Click the <MadCap:variable name="FlexTrade.BuildTheSelectedFunction" /> button. A dialog is displayed </li>
+        </ol>
+    </body>
+</html>

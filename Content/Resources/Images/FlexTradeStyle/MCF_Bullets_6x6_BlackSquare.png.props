@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileProperties>
+    <ImageOverlay>
+        <OriginalImage Type="Image" ShapeTimeSpan="10000" EnableCropRectangle="true" CropRectangle="0,0,6,7" ComputedWidth="6" ComputedHeight="7" Format="tiff" DPI="96">SUkqACoAAACAACBP+BQWDQeEQWCQmGQmFw2IQOIxOHxOGRWLRmNRuEQEEAD+AAQAAQAAAAAAAAAAAQQAAQAAAAYAAAABAQQAAQAAAAgAAAACAQMABAAAAPAAAAADAQMAAQAAAAUAAAAGAQMAAQAAAAIAAAARAQQAAQAAAAgAAAAVAQMAAQAAAAQAAAAWAQQAAQAAAAgAAAAXAQQAAQAAACIAAAAaAQUAAQAAAPgAAAAbAQUAAQAAAAABAAAcAQMAAQAAAAEAAAAoAQMAAQAAAAIAAAA9AQMAAQAAAAIAAABSAQMAAQAAAAIAAAAAAAAACAAIAAgACAAAdwEA6AMAAAB3AQDoAwAA</OriginalImage>
+        <Variables />
+        <Shapes />
+        <Shapes IsResourceLayer="true" Name="Resources" />
+        <ConditionTagSet />
+    </ImageOverlay>
+</fileProperties>

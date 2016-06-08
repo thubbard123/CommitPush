@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1538" MadCap:lastWidth="1219">
+    <head>
+    </head>
+    <body>
+        <h1>Adding or Updating Actions</h1>
+        <p>In <MadCap:variable name="FlexTrade.ProductName" />, you can assign Actions to any of the <MadCap:variable name="FlexTrade.FlexBar" /> menu items. Adding Actions allows you to perform an action when the item in the <MadCap:variable name="FlexTrade.FlexBar" /> is selected.</p>
+        <ul>
+            <img src="../Resources/Images/RuleProperties.png" style="float: right;clear: left;vertical-align: middle;margin-left: 15px;mc-thumbnail: none;" />
+            <!--<li value="5" MadCap:autonum=" ">Run a rule on all rows</li>
+            
+                        li MadCap:autonum=" ">Run a command/li>
+            <li MadCap:autonum=" ">Run a menu item</li>
+            <li MadCap:autonum=" ">Send a NetCommand</li>
+            <li MadCap:autonum=" ">Open a Custom Dialog</li>
+            <li MadCap:autonum=" ">Go to a specific column</li>
+            <li MadCap:autonum=" ">Group by columns</li>
+            <li MadCap:autonum=" ">Ungroup</li>
+            <li MadCap:autonum=" ">Open a Send Order Ticket</li>
+            <li MadCap:autonum=" ">Show a Chart</li>
+            <li MadCap:autonum=" ">Browse to a URL</li> -->
+        </ul>
+        <p>To add an Action, do the following:</p>
+        <ol class="numberedlist">
+            <li class="numberedlist" MadCap:autonum=" ">
+                <MadCap:snippetBlock src="../Resources/Snippets/RightClickMenu.flsnp" />
+            </li>
+            <li class="numberedlist" MadCap:autonum=" ">Choose <b>Edit Shortcut</b>. The <MadCap:variable name="FlexTrade.ShortcutProperties" style="font-weight: bold;" /> dialog is displayed.</li>
+            <li class="numberedlist" MadCap:autonum=" ">Click the + next to the <b>Actions</b> button. A new rule is added under the <b>Run a Rule...</b> list.</li>
+            <li class="numberedlist" MadCap:autonum=" ">Choose an action for the rule from the list. The default Action is <b>Run a Rule...</b> The other options available from the drop-down list are:</li>
+            <li MadCap:autonum=" ">
+                <p><b>Run a rule on all rows</b> - runs the rule on all the rows displayed.</p>
+            </li>
+            <li MadCap:autonum=" ">
+                <p><b>Run a command</b> - run a specific command (enter the command in the Command field when this option is selected).</p>
+            </li>
+            <li MadCap:autonum=" ">
+                <p><b>Run a menu item</b> - select a menu item to run from the drop-down list when this option is selected.</p>
+            </li>
+            <li MadCap:autonum=" ">
+                <p><b>Send a NetCommand</b> -  run a specific command (enter the command in the <b>Command</b> field when this option is selected).</p>
+            </li>
+            <li MadCap:autonum=" ">
+                <p><b>Open a Custom Dialog</b> - enter the name and title of the custom dialog to be displayed.</p>
+            </li>
+            <li MadCap:autonum=" ">
+                <p><b>Go to a </b>(specific)<b> column</b> - select a specific column from the list of available ones in the Column dialog when this option is selected.</p>
+            </li>
+            <li MadCap:autonum=" ">
+                <p><b>Group by Columns</b> - choose the columns to group the view by selecting them from the list of available columns. <b style="font-style: italic;">[[THIS&#160;SHOULD NOT&#160;ALLOW&#160;A&#160;USER&#160;TO&#160;SELECT&#160;THE&#160;SAME&#160;COLUMN&#160;REPEATEDLY.&#160;IS&#160;THERE&#160;A&#160;LIMIT&#160;TO&#160;THE&#160;NUMBER&#160;OF&#160;COLUMNS&#160;A&#160;USER&#160;CAN&#160;SELECT?&#160;]]</b></p>
+            </li>
+            <li MadCap:autonum=" ">
+                <p><b>Ungroup</b> - removes any grouping that exist in the current view.</p>
+            </li>
+            <li MadCap:autonum=" ">
+                <p><b>Open</b> (a) <b>Send order Ticket</b> - select the following fields:</p>
+                <ul>
+                    <li MadCap:autonum=" ">Destination</li>
+                    <li MadCap:autonum=" ">Price Option</li>
+                    <li MadCap:autonum=" ">Quantity and the type of quantity</li>
+                    <li MadCap:autonum=" ">Enter the Side for the ticket</li>
+                </ul>
+            </li>
+            <li MadCap:autonum=" ">
+                <p><b>Show</b> (a) <b>Chart</b> - enter a name and arguments for the chart to display.</p>
+            </li>
+            <li MadCap:autonum=" ">
+                <p><b>Browse</b> (to a) <b>URL</b> - enter a URL&#160;(web address) of a website to display when this shortcut is clicked.</p>
+                <li class="numberedlist" value="5" MadCap:autonum=" ">
+                    <MadCap:snippetBlock src="../Resources/Snippets/OkCancelButtons.flsnp" />
+                </li>
+            </li>
+        </ol>
+        <h2>Editing an existing Rule</h2>
+        <p>You can edit an existing rule if you need to change how a rule functions or the action that an existing <MadCap:variable name="FlexTrade.FlexBar" /> menu item invokes when clicked on in <MadCap:variable name="FlexTrade.ProductName" />. To edit an existing rule, do the following:</p>
+        <ol class="numberedlist">
+            <li class="numberedlist" MadCap:autonum=" ">
+                <MadCap:snippetBlock src="../Resources/Snippets/RightClickMenu.flsnp" />
+            </li>
+            <li class="numberedlist" MadCap:autonum=" ">Choose <b>Edit Shortcut</b>. The <MadCap:variable name="FlexTrade.ShortcutProperties" style="font-weight: bold;" /> dialog is displayed. <img src="../Resources/Images/SelectingEditRulesButton.png" style="float: right;margin-left: 15px;" /></li>
+            <li class="numberedlist" MadCap:autonum=" ">Click the <b>Edit Rule</b> button next to a existing rule. The <MadCap:variable name="FlexTrade.FormulaBuilder" /> is displayed with the code for the existing rule in the main window. For detailed information about how to use the Form</li>
+            <li class="numberedlist" MadCap:autonum=" ">The <MadCap:variable name="FlexTrade.FormulaBuilder" /> allows you to create or update existing rules using the <MadCap:variable name="FlexTrade.FlexTrade" /> <MadCap:variable name="FlexTrade.Analytics" /> language which is similar to the C programming language. For an example of how to create a rule, see the example for <a href="../BuildingARuleExample.htm">Building a rule</a>.</li>
+        </ol>
+    </body>
+</html>

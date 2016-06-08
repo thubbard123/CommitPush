@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles MadCap:conditions="General.PDF,FlexTrade.PrintOnly" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Width="7in" Height="9in" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" PageType="title" Name="Title" Orientation="portrait" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="16.74813cm" Height="22.88646cm" X="-3px" Y="-1px" Anchors="" Right="-6px" Bottom="0px" BackgroundRepeat="no-repeat" BackgroundImage="../Images/FlexTradeStyle/FlexTrade_Logo_Large.png" BackgroundPositionX="right" BackgroundPositionY="bottom">
+			
+			THIS IS SOME TEXT
+        </Frame>
+        <Frame X="126px" Y="6px" Width="505px" Height="80px" Flow="header" Right="-7px" Bottom="778px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p><MadCap:variable xhtml:name="FlexTrade.FlexBar" xhtml:style="font-family: Oswald; font-weight: bold;" /><xhtml:span xhtml:style="font-family: Oswald;">  <![CDATA[ ]]></xhtml:span>
+                        </xhtml:p>
+                        <xhtml:p><MadCap:variable xhtml:name="FlexTrade.PDFGuideTitle" xhtml:style="font-family: Oswald; font-weight: bold;" />
+                        </xhtml:p>
+                        <xhtml:p>&#160;</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="126px" Y="116px" Width="502px" Height="37px" Flow="decoration1" Right="-4px" Bottom="711px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p><MadCap:variable xhtml:name="System.ShortDate" xhtml:style="font-family: 'Arial Narrow'; font-weight: bold;" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="127px" Y="167px" Width="251px" Height="156px" Flow="decoration2" Right="246px" Bottom="541px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p><MadCap:variable xhtml:name="FlexTrade.CompanyName" xhtml:style="color: #22b24c; font-family: Calibri; font-size: 11pt;" />
+                        </xhtml:p>
+                        <xhtml:p><MadCap:variable xhtml:name="FlexTrade.StreetAddress" xhtml:style="font-family: Calibri; font-size: 11pt;" />
+                        </xhtml:p>
+                        <xhtml:p><MadCap:variable xhtml:name="FlexTrade.CityStateZip" xhtml:style="font-family: Calibri; font-size: 11pt;" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:style="font-size: 6pt;">&#160;</xhtml:p>
+                        <xhtml:p><MadCap:variable xhtml:name="FlexTrade.PhoneNumber" xhtml:style="font-family: Calibri; font-size: 11pt;" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="127px" Y="355px" Width="485px" Height="364px" Flow="decoration3" Right="12px" Bottom="145px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/LegalDisclaimer.flsnp" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-5px" Y="1px" Width="120px" Height="122px" Flow="decoration4" Right="509px" Bottom="741px" BackgroundImage="../Images/FlexTradeStyle/black_box.png" BackgroundRepeat="stretch" />
+        <Frame X="-4px" Y="122px" Width="119px" Height="747px" Flow="decoration4" Right="509px" Bottom="-5px" BackgroundImage="../Images/FlexTradeStyle/FlexTrade_DocCover_GreenLeftBanner.png" BackgroundRepeat="stretch" />
+    </Page>
+    <Page Width="7in" Height="9in" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" PageType="left" Name="Left" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="6.541667in" Height="9.104167in" X="0px" Y="5px" Anchors="Left,Right,Top,Bottom" Right="-4px" Bottom="-15px">
+        </Frame>
+        <Frame X="0px" Y="888px" Width="624px" Height="45px" Flow="footer" Right="0px" Bottom="-69px" Anchors="Left,Right,Bottom" TextAlign="center" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Footer.flsnp" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-1px" Y="-71px" Width="629px" Height="65px" Flow="header" Right="-4px" Bottom="870px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/AdministratorHeader.flsnp" />
+                        <xhtml:p>&#160;</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="7in" Height="9in" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" PageType="right" Name="Right" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="6.53125in" Height="9.145833in" X="0px" Y="0px" Anchors="Left,Right,Top,Bottom" Right="-3px" Bottom="-14px">
+        </Frame>
+        <Frame X="0px" Y="888px" Width="624px" Height="45px" Flow="footer" Right="0px" Bottom="-69px" Anchors="Left,Right,Bottom" TextAlign="center" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Footer.flsnp" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-1px" Y="-71px" Width="629px" Height="53px" Flow="header" Right="-4px" Bottom="882px" TextAlign="right" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/AdministratorHeader.flsnp" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

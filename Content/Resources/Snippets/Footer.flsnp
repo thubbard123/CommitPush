@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="32" MadCap:lastWidth="620" MadCap:conditions="General.PDF">
+    <head>
+    </head>
+    <body>
+        <table style="width: 100%;border-top-style: solid;border-top-width: 1px;border-top-color: #dcdcdc;margin-left: 0;margin-right: auto;">
+            <col style="width: 214px;" />
+            <col style="width: 172px;" />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="vertical-align: bottom;color: #696969;">Confidential</td>
+                    <td style="text-align: center;font-size: 10pt;vertical-align: bottom;"><span style="color: #696969;">Page <MadCap:variable name="System.PageNumber" /></span>
+                    </td>
+                    <td style="text-align: right;">
+                        <img src="../Images/FlexTradeStyle/FlexTrade_Logo_20x167_DocFooter.png" style="width: 167px;height: 20px;" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

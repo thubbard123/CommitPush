@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="125" MadCap:lastWidth="620">
+    <head>
+        <link href="../TableStyles/Tip.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../TableStyles/Tip.css');" class="TableStyle-Tip" cellspacing="0">
+            <col class="TableStyle-Tip-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Tip-Body-Body1">
+                    <td class="TableStyle-Tip-BodyA-Column1-Body1">
+                        <p>The table columns can be sorted by clicking the sort arrow to the right of the column name. Some columns can also be filtered using the dropdown list a the top of the table.</p>
+                        <p>You can also rearrange columns by dragging and dropping the column headers.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

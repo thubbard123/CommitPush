@@ -1,0 +1,748 @@
+﻿<pre>
+
+<?xml version="1.0" encoding="us-ascii"?>
+<BarControlModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tabs>
+    <BarTabModel>
+      <Header>My Shortcuts</Header>
+      <Bars>
+        <BarGroupModel>
+          <DisplayName>Trade Lists</DisplayName>
+          <ExpandedByDefault>true</ExpandedByDefault>
+          <BarItems>
+            <BarItemModel>
+              <Label>USA Buy</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName> LOAD_TRADE_FILE PR USA B</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>USA Sell</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LOAD_TRADE_FILE PR USA S</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>REBAL</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LOAD_TRADE_FILE PR REBAL</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Canada Buy</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LOAD_TRADE_FILE PR CANADA B</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Canada Sell</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LOAD_TRADE_FILE PR CANADA S</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Latin America Buy</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LOAD_TRADE_FILE PR LATAM B</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Latin America Sell</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LOAD_TRADE_FILE PR LATAM S</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Europe Buy</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LOAD_TRADE_FILE PR EUROPE B</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Europe Sell</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LOAD_TRADE_FILE PR EUROPE S</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Asia Buy</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LOAD_TRADE_FILE PR ASIA B</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Asia Sell</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LOAD_TRADE_FILE PR ASIA S</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>New Shortcut</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction" />
+              </Actions>
+            </BarItemModel>
+          </BarItems>
+        </BarGroupModel>
+        <BarGroupModel>
+          <DisplayName>PreTrade</DisplayName>
+          <ExpandedByDefault>true</ExpandedByDefault>
+          <BarItems>
+            <BarItemModel>
+              <Label>Volume Prediction</Label>
+              <Description>Volume Prediction Help</Description>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>EDGE_DAY_VOLUME</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Volume Profile</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>VWAP_PROFILE</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Classify_UnOrd%PredVol</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleAllRowsQuickAction">
+                  <RuleName>EDGE_CLASSIFY</RuleName>
+                </QuickAction>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>UNORD_PCT_EDGE_DAY</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>PTS Cost</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>PTS_COST_P</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>PTS Analyze</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>a SET_PTSPORT; a PTS_JOB_INTERACTIVE ANALYSIS</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Nomura - Tradespex</Label>
+              <Foreground>#FFE46C0A</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TRADESPEX</RuleName>
+                </QuickAction>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>NOM_STDDEV_BPS</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Citi BECS</Label>
+              <Foreground>#FFE46C0A</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>RUN_BECS</RuleName>
+                </QuickAction>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>C_EIC_BPS</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+          </BarItems>
+        </BarGroupModel>
+        <BarGroupModel>
+          <DisplayName>Analytics</DisplayName>
+          <ExpandedByDefault>true</ExpandedByDefault>
+          <BarItems>
+            <BarItemModel>
+              <Label>Alerts</Label>
+              <IconFilename />
+              <Foreground>#FFFF0000</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>ALERT_SCREEN</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>ADV-Sector Returns</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>ADV_30D</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Market Data</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>VOLUME</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Comparables</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>COMPARABLE</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>FlexLimits</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>DYN_LT_STARTUP; col LT_SET_PCT</RuleName>
+                </QuickAction>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>LT_SET_PCT</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Price Prediction</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>PRICE_EDGE</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Volume Prediction</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>EDGE_DAY_VOLUME</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Historic Volume Profile</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>VWAP_PROFILE</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Snap Price</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>SNAP_PRICE</ColumnName>
+                </QuickAction>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>SNAP_SCREEN</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Snap Arrival</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>SNAP_SCREEN</RuleName>
+                </QuickAction>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>SNAP_PRICE</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+          </BarItems>
+        </BarGroupModel>
+        <BarGroupModel>
+          <DisplayName>Charts/Visualizations</DisplayName>
+          <ExpandedByDefault>false</ExpandedByDefault>
+          <BarItems>
+            <BarItemModel>
+              <Label>Datawatch</Label>
+              <Description>Show Datawatch window</Description>
+              <IconFilename>$FLEXAPP\\flex\resources\icons\DataWatch_MainAppIcon.ico</IconFilename>
+              <Foreground>#FFB3A2C7</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="NetCommandQuickAction">
+                  <Command>DATAWATCH WORKBOOK D:\dfsshares\flex_clients\ec-demo16B\flexapp\ushare\Position Visualization.exw</Command>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Execution Performance</Label>
+              <IconFilename />
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="CommandQuickAction">
+                  <CommandString>VSCHART</CommandString>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>P&amp;L Bubble Chart</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ChartQuickAction">
+                  <ChartName>SPLOT</ChartName>
+                  <Arguments>PCT_ADV T_PNL_LLAST UNORD_VALUE_USD</Arguments>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>P&amp;L Group Plot</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="CommandQuickAction">
+                  <CommandString>GCHART GROUP_CHART1 SUM_T_PNL_LLAST SUM_TARGET_VALUE_USD</CommandString>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Venue Distribution</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ChartQuickAction">
+                  <ChartName>VENUE_CHART</ChartName>
+                  <Arguments />
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>HeatMap - Avialable-%ADV</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="NetCommandQuickAction">
+                  <Command>TREEMAP size=TARGET_VALUE_USD color=PCT_ADV bubblesize=UNORD_VALUE_USD group=SECTOR,TRADE_EFFORT  dynamic_filter=false string_filter=TAG_167 filter=PCT_ADV,UNORD_VALUE_USD,UNORD_PCT_EDGE_60MIN,C_EIC_BPS scatterX=PCT_ADV scatterY=T_PNL_LLAST</Command>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>OTAS Charts</Label>
+              <Foreground>#FFE46C0A</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="CommandQuickAction">
+                  <CommandString>a RUN_OTAS MS SYMBOL</CommandString>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Flexedge Volume</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LAUNCH_FEDGE online</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>FlexLimits Savings</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LAUNCH_FEDGE savings</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>FlexLimits Bands</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>LAUNCH_FEDGE limitbands</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+          </BarItems>
+        </BarGroupModel>
+        <BarGroupModel>
+          <DisplayName>ATS-DARK</DisplayName>
+          <ExpandedByDefault>true</ExpandedByDefault>
+          <BarItems>
+            <BarItemModel>
+              <Label>Set Liquidnet QTY</Label>
+              <Foreground>#FFE46C0A</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>SET_LQNT_QTY</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Send DarkRouter</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>DARK_PROMPT</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>DarkRouter Templates</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>DARK_LOAD</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>New Shortcut</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction" />
+              </Actions>
+            </BarItemModel>
+          </BarItems>
+        </BarGroupModel>
+        <BarGroupModel>
+          <DisplayName>Cash Desk</DisplayName>
+          <ExpandedByDefault>false</ExpandedByDefault>
+          <BarItems>
+            <BarItemModel>
+              <Label>Citigroup</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET CITIEQ:CASH  UNORD SHARES</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Credit Suisse</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET CSEQ:CASH  UNORD SHARES</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Jefferies</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET JEFFEQ:CASH  UNORD SHARES</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Morgan Stanley</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET MSEQ:CASH  UNORD SHARES</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Merrill</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET MLEQ:CASH  UNORD SHARES</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>RBC</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET RBCEQ-US:CASH  UNORD SHARES</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Deutche Bank</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET DBSIEQ:CASH  UNORD SHARES</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Goldman</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET GSEQ:CASH  UNORD SHARES</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>JP Morgan</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET JPMEQ:CASH  UNORD SHARES</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+          </BarItems>
+        </BarGroupModel>
+        <BarGroupModel>
+          <DisplayName>Algos</DisplayName>
+          <ExpandedByDefault>false</ExpandedByDefault>
+          <BarItems>
+            <BarItemModel>
+              <Label>Algo Selector</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>ALGO_SELECTOR</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Flex Pairs</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PAIR_BUILD</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>MLEQ-Ambush</Label>
+              <Description />
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET MLEQ:ALGO UNORD SHARES AMBUSH</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>MLEQ-VWAP</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET MLEQ:ALGO UNORD SHARES VWAP</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>CSEQ-Guerrilla</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET CSEQ:ALGO  UNORD SHARES GUERRILLA</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>CSEQ-TWAP</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET CSEQ:ALGO  UNORD SHARES TWAP</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>CIITI-IS</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET CITIEQ:ALGO  UNORD SHARES IS</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>CITI-Participate</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction">
+                  <RuleName>PROMPT_TICKET CITIEQ:ALGO  UNORD SHARES PARTICIPATE</RuleName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+          </BarItems>
+        </BarGroupModel>
+        <BarGroupModel>
+          <DisplayName>PostTrade</DisplayName>
+          <ExpandedByDefault>false</ExpandedByDefault>
+          <BarItems>
+            <BarItemModel>
+              <Label>Slippages</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>SLIP_VS_AP_BPS</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>PnL vs Benchmarks</Label>
+              <Foreground>#FF00B050</Foreground>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>U_PNL_LLAST</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+          </BarItems>
+        </BarGroupModel>
+        <BarGroupModel>
+          <DisplayName>Filters/Grouping</DisplayName>
+          <ExpandedByDefault>false</ExpandedByDefault>
+          <BarItems>
+            <BarItemModel>
+              <Label>Side</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="GroupByQuickAction">
+                  <ColumnName>SIDE</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Trading Effort</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="GroupByQuickAction">
+                  <ColumnName>TRADE_EFFORT</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Ungroup</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="UngroupQuickAction" />
+              </Actions>
+            </BarItemModel>
+          </BarItems>
+        </BarGroupModel>
+        <BarGroupModel>
+          <DisplayName>Navigate</DisplayName>
+          <ExpandedByDefault>false</ExpandedByDefault>
+          <BarItems>
+            <BarItemModel>
+              <Label>Home</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>LQNT_QTY</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Market-Data</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>VOLUME</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+            <BarItemModel>
+              <Label>Snap Times</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="ColumnNavigateQuickAction">
+                  <ColumnName>S_LTIME</ColumnName>
+                </QuickAction>
+              </Actions>
+            </BarItemModel>
+          </BarItems>
+        </BarGroupModel>
+      </Bars>
+      <ExtraItems />
+    </BarTabModel>
+    <BarTabModel>
+      <Header>New Tab</Header>
+      <Bars>
+        <BarGroupModel>
+          <DisplayName>Group</DisplayName>
+          <ExpandedByDefault>true</ExpandedByDefault>
+          <BarItems>
+            <BarItemModel>
+              <Label>New Shortcut</Label>
+              <BarItems />
+              <Actions>
+                <QuickAction xsi:type="RuleQuickAction" />
+              </Actions>
+            </BarItemModel>
+          </BarItems>
+        </BarGroupModel>
+      </Bars>
+      <ExtraItems />
+    </BarTabModel>
+  </Tabs>
+</BarControlModel>
+
+</pre>

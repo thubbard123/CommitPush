@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="163" MadCap:lastWidth="620">
+    <head>
+        <link href="../TableStyles/Tip.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../../Resources/TableStyles/Tip.css');" class="TableStyle-Tip" cellspacing="0">
+            <col class="TableStyle-Tip-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Tip-Body-Body1" MadCap:conditions="">
+                    <td class="TableStyle-Tip-BodyA-Column1-Body1">
+                        <p>Internal Crossing must be activated by enabling <b>Show Client Orders</b> in the <b>IQ Settings Spot CCYs</b> table. This provides visibility of other trader's prices in the <b>Depth</b> tables of the <b>Price Pods</b>.</p>
+                        <p>If an order is not executed it will remain working until it expires. See <a href="../../MaxxTrader/OrderTypes/OrderExpiry.htm">Order Expiry</a> for information on how to set the <b>Expiry</b> for an order.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

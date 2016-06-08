@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="152" MadCap:lastWidth="699" MadCap:conditions="General.Online">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="../../Resources/Stylesheets/StylesForHomePage.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="contentBody" class="off-canvas-main">
+            <MadCap:bodyProxy />
+            <div class="footer center">
+                <div class="row outer-row">
+                    <div class="small-12 medium-3 columns">
+                        <img src="../Images/FlexTradeStyle/FLEXTRADE_Logo_16x167_White.png" />
+                    </div>
+                    <div class="small-12 medium-6 columns">
+                        <div class="footer-links"><a href="../../Online Only Topics/More Information/PDFDownloads.htm">PDFs</a><a href="../../Online Only Topics/More Information/Tips.htm">Tips</a><a href="../../Online Only Topics/More Information/FAQs.htm">FAQs</a><a href="../../Online Only Topics/More Information/CompanyInformation.htm">Company</a>
+                        </div>
+                        <p class="Copyright">Copyright © <MadCap:variable name="General.CopyrightYear" /> <MadCap:variable name="General.CompanyNameFull" />, All Rights Reserved.</p>
+                    </div>
+                    <div class="small-12 medium-3 footer-icons columns"><a href="https://twitter.com/#!/MadCapDocTeam" target="_blank">&#160;</a><a href="http://www.facebook.com/madcapdocteam" target="_blank">&#160;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="102" MadCap:lastWidth="1056" MadCap:conditions="General.PDF">
+    <head>
+    </head>
+    <body>
+        <p>&#160;</p>
+        <table style="width: 100%;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #dcdcdc;margin-left: 0;margin-right: auto;">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="color: #696969;"><MadCap:variable name="FlexTrade.FlexTrade" /> <MadCap:variable name="FlexTrade.FlexBar" /><![CDATA[  ]]></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,1403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName"
+    EvaluatedDefinition="FlexTrade Systems, Inc.">FlexTrade Systems, Inc.</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber"
+    EvaluatedDefinition="+1 516 627 8993">+1 516 627 8993</Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    Definition="Some text"
+    OriginalName="StreetAddress"
+    EvaluatedDefinition="111 Great Neck Road, Suite 314">111 Great Neck Road, Suite 314</Variable>
+  <Variable
+    Name="ProductName"
+    Comment=""
+    OriginalName="ProductName"
+    EvaluatedDefinition="FlexTRADER">FlexTRADER</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    Definition="Some text"
+    EvaluatedDefinition="Great Neck, NY 11021">Great Neck, NY 11021</Variable>
+  <Variable
+    Name="Year"
+    Comment=""
+    Type="DateTime"
+    LastUpdated="2016-02-16T18:02:51.1357833-08:00"
+    EvaluatedDefinition="yyyy">yyyy</Variable>
+  <Variable
+    Name="FlexTrader"
+    Comment=""
+    EvaluatedDefinition="FlexTRADER">FlexTRADER</Variable>
+  <Variable
+    Name="OMSocketAPI"
+    Comment=""
+    EvaluatedDefinition="OM Socket API">OM Socket API</Variable>
+  <Variable
+    Name="API"
+    Comment=""
+    EvaluatedDefinition="API">API</Variable>
+  <Variable
+    Name="C++"
+    Comment=""
+    EvaluatedDefinition="C++">C++</Variable>
+  <Variable
+    Name="Java"
+    Comment=""
+    EvaluatedDefinition="Java">Java</Variable>
+  <Variable
+    Name="FlexStrategy"
+    Comment=""
+    EvaluatedDefinition="FlexStrategy">FlexStrategy</Variable>
+  <Variable
+    Name="FIX"
+    Comment=""
+    EvaluatedDefinition="FIX">FIX</Variable>
+  <Variable
+    Name="OM"
+    Comment=""
+    EvaluatedDefinition="Order Match">Order Match</Variable>
+  <Variable
+    Name="om"
+    Comment=""
+    EvaluatedDefinition="order match">order match</Variable>
+  <Variable
+    Name="Broker"
+    Comment=""
+    EvaluatedDefinition="Broker">Broker</Variable>
+  <Variable
+    Name="broker"
+    Comment=""
+    EvaluatedDefinition="broker">broker</Variable>
+  <Variable
+    Name="C#"
+    Comment=""
+    EvaluatedDefinition="C#">C#</Variable>
+  <Variable
+    Name=".NET"
+    Comment=""
+    EvaluatedDefinition=".NET">.NET</Variable>
+  <Variable
+    Name="OrderRouter"
+    Comment=""
+    EvaluatedDefinition="Order Router">Order Router</Variable>
+  <Variable
+    Name="orderrouter"
+    Comment=""
+    EvaluatedDefinition="order router">order router</Variable>
+  <Variable
+    Name="GUI"
+    Comment=""
+    EvaluatedDefinition="GUI">GUI</Variable>
+  <Variable
+    Name="OptimizationServer"
+    Comment=""
+    EvaluatedDefinition="Optimization Server">Optimization Server</Variable>
+  <Variable
+    Name="Multiasset"
+    Comment=""
+    EvaluatedDefinition="Mult-asset">Mult-asset</Variable>
+  <Variable
+    Name="multiasset"
+    Comment=""
+    EvaluatedDefinition="multi-asset">multi-asset</Variable>
+  <Variable
+    Name="optimizationserver"
+    Comment=""
+    EvaluatedDefinition="optimization server">optimization server</Variable>
+  <Variable
+    Name="OMServer"
+    Comment=""
+    EvaluatedDefinition="OM Server">OM Server</Variable>
+  <Variable
+    Name="Trader"
+    Comment=""
+    EvaluatedDefinition="Trader">Trader</Variable>
+  <Variable
+    Name="trader"
+    Comment=""
+    EvaluatedDefinition="trader">trader</Variable>
+  <Variable
+    Name="DarkPools"
+    Comment=""
+    EvaluatedDefinition="Dark Pools">Dark Pools</Variable>
+  <Variable
+    Name="darkpools"
+    Comment=""
+    EvaluatedDefinition="dark pools">dark pools</Variable>
+  <Variable
+    Name="CEP"
+    Comment=""
+    EvaluatedDefinition="CEP">CEP</Variable>
+  <Variable
+    Name="Kdb"
+    Comment=""
+    EvaluatedDefinition="Kdb">Kdb</Variable>
+  <Variable
+    Name="OneTick"
+    Comment=""
+    EvaluatedDefinition="OneTick">OneTick</Variable>
+  <Variable
+    Name="Streambase"
+    Comment=""
+    EvaluatedDefinition="Streambase">Streambase</Variable>
+  <Variable
+    Name="FlexAPIs"
+    Comment=""
+    EvaluatedDefinition="Flex APIs">Flex APIs</Variable>
+  <Variable
+    Name="FixHubs"
+    Comment=""
+    EvaluatedDefinition="Fix Hubs">Fix Hubs</Variable>
+  <Variable
+    Name="ClientOMS"
+    Comment=""
+    EvaluatedDefinition="Client OMS">Client OMS</Variable>
+  <Variable
+    Name="TradeMap"
+    Comment=""
+    EvaluatedDefinition="TradeMap">TradeMap</Variable>
+  <Variable
+    Name="ETF"
+    Comment=""
+    EvaluatedDefinition="ETF">ETF</Variable>
+  <Variable
+    Name="ETFManagement"
+    Comment=""
+    EvaluatedDefinition="ETF Management">ETF Management</Variable>
+  <Variable
+    Name="ETFmanagement"
+    Comment=""
+    EvaluatedDefinition="ETF management">ETF management</Variable>
+  <Variable
+    Name="PMGUIs"
+    Comment=""
+    EvaluatedDefinition="PM GUIs">PM GUIs</Variable>
+  <Variable
+    Name="Banks"
+    Comment=""
+    EvaluatedDefinition="Banks">Banks</Variable>
+  <Variable
+    Name="banks"
+    Comment=""
+    EvaluatedDefinition="banks">banks</Variable>
+  <Variable
+    Name="Brokers"
+    Comment=""
+    EvaluatedDefinition="Brokers">Brokers</Variable>
+  <Variable
+    Name="brokers"
+    Comment=""
+    EvaluatedDefinition="brokers">brokers</Variable>
+  <Variable
+    Name="backend"
+    Comment=""
+    EvaluatedDefinition="back-end">back-end</Variable>
+  <Variable
+    Name="TCP/IP"
+    Comment=""
+    EvaluatedDefinition="TCP/IP">TCP/IP</Variable>
+  <Variable
+    Name="OrderClass"
+    Comment=""
+    EvaluatedDefinition="Order Class">Order Class</Variable>
+  <Variable
+    Name="FlexConnectorClass"
+    Comment=""
+    EvaluatedDefinition="FlexConnector Class">FlexConnector Class</Variable>
+  <Variable
+    Name="ClientOrder"
+    Comment=""
+    EvaluatedDefinition="ClientOrder">ClientOrder</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="" />
+  <Variable
+    Name="StreetOrder"
+    Comment=""
+    EvaluatedDefinition="StreetOrder">StreetOrder</Variable>
+  <Variable
+    Name="blotter"
+    Comment=""
+    EvaluatedDefinition="blotter">blotter</Variable>
+  <Variable
+    Name="FlexListenerClass"
+    Comment=""
+    EvaluatedDefinition="FlexListener Class">FlexListener Class</Variable>
+  <Variable
+    Name="OrderParametersClass"
+    Comment=""
+    EvaluatedDefinition="OrderParameters Class">OrderParameters Class</Variable>
+  <Variable
+    Name="onClientNewOrder"
+    Comment=""
+    EvaluatedDefinition="onClientNewOrder">onClientNewOrder</Variable>
+  <Variable
+    Name="FailedToConnectException"
+    Comment=""
+    EvaluatedDefinition="FailedToConnectException">FailedToConnectException</Variable>
+  <Variable
+    Name="FailedToCreatePortfolioException"
+    Comment=""
+    EvaluatedDefinition="FailedToCreatePortfolioException">FailedToCreatePortfolioException</Variable>
+  <Variable
+    Name="ListenerIsMissingException"
+    Comment=""
+    EvaluatedDefinition="ListenerIsMissingException">ListenerIsMissingException</Variable>
+  <Variable
+    Name="CreatingConnections"
+    Comment=""
+    EvaluatedDefinition="Creating Connections">Creating Connections</Variable>
+  <Variable
+    Name="SendingNewClientOrders"
+    Comment=""
+    EvaluatedDefinition="Sending New Client Orders">Sending New Client Orders</Variable>
+  <Variable
+    Name="CloningExistingClientOrders"
+    Comment=""
+    EvaluatedDefinition="Cloning Existing Client Orders">Cloning Existing Client Orders</Variable>
+  <Variable
+    Name="PrintingActiveClientOrders"
+    Comment=""
+    EvaluatedDefinition="Printing Active Client Orders">Printing Active Client Orders</Variable>
+  <Variable
+    Name="SendingStreetOrders"
+    Comment=""
+    EvaluatedDefinition="Sending Street Orders">Sending Street Orders</Variable>
+  <Variable
+    Name="CloningExistingStreetOrders"
+    Comment=""
+    EvaluatedDefinition="Cloning Existing Street Orders">Cloning Existing Street Orders</Variable>
+  <Variable
+    Name="ManagingOrderswithOMJavaAPI"
+    Comment=""
+    EvaluatedDefinition="Managing Orders with OM Java API">Managing Orders with OM Java API</Variable>
+  <Variable
+    Name="sendClientOrder"
+    Comment=""
+    EvaluatedDefinition="sendClientOrder">sendClientOrder</Variable>
+  <Variable
+    Name="function"
+    Comment=""
+    EvaluatedDefinition="function">function</Variable>
+  <Variable
+    Name="callback"
+    Comment=""
+    EvaluatedDefinition="callback">callback</Variable>
+  <Variable
+    Name="buildNewClientOrderParameters()"
+    Comment=""
+    EvaluatedDefinition="buildNewClientOrderParameters()">buildNewClientOrderParameters()</Variable>
+  <Variable
+    Name="getClientActiveOrders"
+    Comment=""
+    EvaluatedDefinition="getClientActiveOrders">getClientActiveOrders</Variable>
+  <Variable
+    Name="sendStreetOrder"
+    Comment=""
+    EvaluatedDefinition="sendStreetOrder">sendStreetOrder</Variable>
+  <Variable
+    Name="AlgoAPI"
+    Comment=""
+    EvaluatedDefinition="Algo API">Algo API</Variable>
+  <Variable
+    Name="latency"
+    Comment=""
+    EvaluatedDefinition="latency">latency</Variable>
+  <Variable
+    Name="server-side"
+    Comment=""
+    EvaluatedDefinition="server-side">server-side</Variable>
+  <Variable
+    Name="Server-side"
+    Comment=""
+    EvaluatedDefinition="Server-side">Server-side</Variable>
+  <Variable
+    Name="StrategyBase"
+    Comment=""
+    EvaluatedDefinition="StrategyBase">StrategyBase</Variable>
+  <Variable
+    Name="Greek"
+    Comment=""
+    EvaluatedDefinition="Greek">Greek</Variable>
+  <Variable
+    Name="Greeks"
+    Comment=""
+    EvaluatedDefinition="Greeks">Greeks</Variable>
+  <Variable
+    Name="greek"
+    Comment=""
+    EvaluatedDefinition="greek">greek</Variable>
+  <Variable
+    Name="greeks"
+    Comment=""
+    EvaluatedDefinition="greeks">greeks</Variable>
+  <Variable
+    Name="Businessobjects"
+    Comment=""
+    EvaluatedDefinition="Business objects">Business objects</Variable>
+  <Variable
+    Name="Stratlets"
+    Comment=""
+    EvaluatedDefinition="Stratlets">Stratlets</Variable>
+  <Variable
+    Name="stratlets"
+    Comment=""
+    EvaluatedDefinition="stratlets">stratlets</Variable>
+  <Variable
+    Name="doSplit"
+    Comment=""
+    EvaluatedDefinition="doSplit">doSplit</Variable>
+  <Variable
+    Name="Restrictions.h"
+    Comment=""
+    EvaluatedDefinition="Restrictions.h">Restrictions.h</Variable>
+  <Variable
+    Name="Restrictions.cpp"
+    Comment=""
+    EvaluatedDefinition="Restrictions.cpp">Restrictions.cpp</Variable>
+  <Variable
+    Name="OnEvent.rule"
+    Comment=""
+    EvaluatedDefinition="OnEvent.rule">OnEvent.rule</Variable>
+  <Variable
+    Name="FlexTrade"
+    Comment=""
+    EvaluatedDefinition="FlexTrade">FlexTrade</Variable>
+  <Variable
+    Name="FlexTradeAPI"
+    Comment=""
+    EvaluatedDefinition="FlexTrade API">FlexTrade API</Variable>
+  <Variable
+    Name="MarketDataAPI"
+    Comment=""
+    EvaluatedDefinition="Market Data API">Market Data API</Variable>
+  <Variable
+    Name="SYMAPI"
+    Comment=""
+    EvaluatedDefinition="SYM API">SYM API</Variable>
+  <Variable
+    Name="DepthAPI"
+    Comment=""
+    EvaluatedDefinition="Depth API">Depth API</Variable>
+  <Variable
+    Name="SymProxyAPI"
+    Comment=""
+    EvaluatedDefinition="SymProxy API">SymProxy API</Variable>
+  <Variable
+    Name="Top-Of-Book"
+    Comment=""
+    EvaluatedDefinition="Top-Of-Book">Top-Of-Book</Variable>
+  <Variable
+    Name="Depth-Of-Book"
+    Comment=""
+    EvaluatedDefinition="Depth-Of-Book">Depth-Of-Book</Variable>
+  <Variable
+    Name="Level-1"
+    Comment=""
+    EvaluatedDefinition="Level-1">Level-1</Variable>
+  <Variable
+    Name="Level-2"
+    Comment=""
+    EvaluatedDefinition="Level-2">Level-2</Variable>
+  <Variable
+    Name="FlexTrades"
+    Comment=""
+    EvaluatedDefinition="FlexTrade's">FlexTrade's</Variable>
+  <Variable
+    Name="FLID"
+    Comment=""
+    EvaluatedDefinition="FLID">FLID</Variable>
+  <Variable
+    Name="FLIDs"
+    Comment=""
+    EvaluatedDefinition="FLIDs">FLIDs</Variable>
+  <Variable
+    Name="CSymProxy"
+    Comment=""
+    EvaluatedDefinition="CSymProxy">CSymProxy</Variable>
+  <Variable
+    Name="SymProxy"
+    Comment=""
+    EvaluatedDefinition="SymProxy">SymProxy</Variable>
+  <Variable
+    Name="CSymData"
+    Comment=""
+    EvaluatedDefinition="CSymData">CSymData</Variable>
+  <Variable
+    Name="OrderManagement"
+    Comment=""
+    EvaluatedDefinition="Order management">Order management</Variable>
+  <Variable
+    Name="CApiConnection"
+    Comment=""
+    EvaluatedDefinition="CApiConnection">CApiConnection</Variable>
+  <Variable
+    Name="CApiListener"
+    Comment=""
+    EvaluatedDefinition="CApiListener">CApiListener</Variable>
+  <Variable
+    Name="CBboxConnection"
+    Comment=""
+    EvaluatedDefinition="CBboxConnection">CBboxConnection</Variable>
+  <Variable
+    Name="COexConnection"
+    Comment=""
+    EvaluatedDefinition="COexConnection">COexConnection</Variable>
+  <Variable
+    Name="COexListener"
+    Comment=""
+    EvaluatedDefinition="COexListener">COexListener</Variable>
+  <Variable
+    Name="OnNewOrder()"
+    Comment=""
+    EvaluatedDefinition="OnNewOrder()">OnNewOrder()</Variable>
+  <Variable
+    Name="CBboxListener"
+    Comment=""
+    EvaluatedDefinition="CBboxListener">CBboxListener</Variable>
+  <Variable
+    Name="ApiOMConnection"
+    Comment=""
+    EvaluatedDefinition="ApiOMConnection">ApiOMConnection</Variable>
+  <Variable
+    Name="SendSingleSignon"
+    Comment=""
+    EvaluatedDefinition="SendSingleSignon">SendSingleSignon</Variable>
+  <Variable
+    Name="Connect"
+    Comment=""
+    EvaluatedDefinition="Connect">Connect</Variable>
+  <Variable
+    Name="ApiConnection"
+    Comment=""
+    EvaluatedDefinition="ApiConnection">ApiConnection</Variable>
+  <Variable
+    Name="OMAPI"
+    Comment=""
+    EvaluatedDefinition="OM API">OM API</Variable>
+  <Variable
+    Name="APIOMListeneer"
+    Comment=""
+    EvaluatedDefinition="ApiOMListener">ApiOMListener</Variable>
+  <Variable
+    Name="Order_Management"
+    Comment=""
+    EvaluatedDefinition="Order Management">Order Management</Variable>
+  <Variable
+    Name="ApiOMConnection::SendStreetOrder"
+    Comment=""
+    EvaluatedDefinition="ApiOMConnection::SendStreetOrder">ApiOMConnection::SendStreetOrder</Variable>
+  <Variable
+    Name="ApiOMConnection::SendClientOrder"
+    Comment=""
+    EvaluatedDefinition="ApiOMConnection::SendClientOrder">ApiOMConnection::SendClientOrder</Variable>
+  <Variable
+    Name="SendClientOrder"
+    Comment=""
+    EvaluatedDefinition="SendClientOrder">SendClientOrder</Variable>
+  <Variable
+    Name="SendClientReplace"
+    Comment=""
+    EvaluatedDefinition="SendClientReplace">SendClientReplace</Variable>
+  <Variable
+    Name="SendClientCancel"
+    Comment=""
+    EvaluatedDefinition="SendClientCancel">SendClientCancel</Variable>
+  <Variable
+    Name="SendStreetOrder"
+    Comment=""
+    EvaluatedDefinition="SendStreetOrder">SendStreetOrder</Variable>
+  <Variable
+    Name="SendStreetReplace"
+    Comment=""
+    EvaluatedDefinition="SendStreetReplace">SendStreetReplace</Variable>
+  <Variable
+    Name="SendStreetCancel"
+    Comment=""
+    EvaluatedDefinition="SendStreetCancel">SendStreetCancel</Variable>
+  <Variable
+    Name="AddClient"
+    Comment=""
+    EvaluatedDefinition="AddClient">AddClient</Variable>
+  <Variable
+    Name="OnStreetAckReport"
+    Comment=""
+    EvaluatedDefinition="OnStreetAckReport">OnStreetAckReport</Variable>
+  <Variable
+    Name="OnClientAckReport"
+    Comment=""
+    EvaluatedDefinition="OnClientAckReport">OnClientAckReport</Variable>
+  <Variable
+    Name="OnClientCancelOrder"
+    Comment=""
+    EvaluatedDefinition="OnClientCancelOrder">OnClientCancelOrder</Variable>
+  <Variable
+    Name="OnClientReplaceOrder"
+    Comment=""
+    EvaluatedDefinition="OnClientReplaceOrder">OnClientReplaceOrder</Variable>
+  <Variable
+    Name="OnStreetNewOrder"
+    Comment=""
+    EvaluatedDefinition="OnStreetNewOrder">OnStreetNewOrder</Variable>
+  <Variable
+    Name="OnStreetNewCrossOrder"
+    Comment=""
+    EvaluatedDefinition="OnStreetNewCrossOrder">OnStreetNewCrossOrder</Variable>
+  <Variable
+    Name="OnClientNewOrder"
+    Comment=""
+    EvaluatedDefinition="OnClientNewOrder">OnClientNewOrder</Variable>
+  <Variable
+    Name="OnStreetExecutionReport"
+    Comment=""
+    EvaluatedDefinition="OnStreetExecutionReport">OnStreetExecutionReport</Variable>
+  <Variable
+    Name="OnClientExecutionReport"
+    Comment=""
+    EvaluatedDefinition="OnClientExecutionReport">OnClientExecutionReport</Variable>
+  <Variable
+    Name="OnStreetReplaceOrder"
+    Comment=""
+    EvaluatedDefinition="OnStreetReplaceOrder">OnStreetReplaceOrder</Variable>
+  <Variable
+    Name="OnStreetCancelOrder"
+    Comment=""
+    EvaluatedDefinition="OnStreetCancelOrder">OnStreetCancelOrder</Variable>
+  <Variable
+    Name="OnStreetCancelReject"
+    Comment=""
+    EvaluatedDefinition="OnStreetCancelReject">OnStreetCancelReject</Variable>
+  <Variable
+    Name="OnClientCancelReject"
+    Comment=""
+    EvaluatedDefinition="OnClientCancelReject">OnClientCancelReject</Variable>
+  <Variable
+    Name="listener_thread_function"
+    Comment=""
+    EvaluatedDefinition="listener_thread_function">listener_thread_function</Variable>
+  <Variable
+    Name="RunTest"
+    Comment=""
+    EvaluatedDefinition="RunTest">RunTest</Variable>
+  <Variable
+    Name="FlexAPI"
+    Comment=""
+    EvaluatedDefinition="FlexAPI">Flex API</Variable>
+  <Variable
+    Name="OmTest.cpp"
+    Comment=""
+    EvaluatedDefinition="OmTest.cpp">OmTest.cpp</Variable>
+  <Variable
+    Name="SendClientExecutionReport"
+    Comment=""
+    EvaluatedDefinition="SendClientExecutionReport">SendClientExecutionReport</Variable>
+  <Variable
+    Name="SendClientBustReport"
+    Comment=""
+    EvaluatedDefinition="SendClientBustReport">SendClientBustReport</Variable>
+  <Variable
+    Name="SendClientCorrectionReport"
+    Comment=""
+    EvaluatedDefinition="SendClientCorrectionReport">SendClientCorrectionReport</Variable>
+  <Variable
+    Name="libflexapi.a"
+    Comment=""
+    EvaluatedDefinition="libflexapi.a">libflexapi.a</Variable>
+  <Variable
+    Name="makefile"
+    Comment=""
+    EvaluatedDefinition="makefile">makefile</Variable>
+  <Variable
+    Name="PLATFORM"
+    Comment=""
+    EvaluatedDefinition="PLATFORM">PLATFORM</Variable>
+  <Variable
+    Name="SymServer"
+    Comment=""
+    EvaluatedDefinition="Sym Server">Sym Server</Variable>
+  <Variable
+    Name="adaptors"
+    Comment=""
+    EvaluatedDefinition="adaptors">adaptors</Variable>
+  <Variable
+    Name="DistributorServer"
+    Comment=""
+    EvaluatedDefinition="Distributor Server">Distributor Server</Variable>
+  <Variable
+    Name="SymProtocol"
+    Comment=""
+    EvaluatedDefinition="Sym Protocol">Sym Protocol</Variable>
+  <Variable
+    Name="MarketDataAPIs"
+    Comment=""
+    EvaluatedDefinition="Market Data APIs">Market Data APIs</Variable>
+  <Variable
+    Name="USLevel1"
+    Comment=""
+    EvaluatedDefinition="US Level 1">US Level 1</Variable>
+  <Variable
+    Name="NASDAQ"
+    Comment=""
+    EvaluatedDefinition="NASDAQ">NASDAQ</Variable>
+  <Variable
+    Name="ARCA"
+    Comment=""
+    EvaluatedDefinition="ARCA">ARCA</Variable>
+  <Variable
+    Name="NYSE"
+    Comment=""
+    EvaluatedDefinition="NYSE">NYSE</Variable>
+  <Variable
+    Name="USLevel2"
+    Comment=""
+    EvaluatedDefinition="US Level 2">US Level 2</Variable>
+  <Variable
+    Name="CQS/CTS/UQDF/UTDF/TDDS/BDDS"
+    Comment=""
+    EvaluatedDefinition="CQS/CTS/UQDF/UTDF/TDDS/BDDS">CQS/CTS/UQDF/UTDF/TDDS/BDDS</Variable>
+  <Variable
+    Name="TSX"
+    Comment=""
+    EvaluatedDefinition="TSX">TSX</Variable>
+  <Variable
+    Name="BSE"
+    Comment=""
+    EvaluatedDefinition="BSE">BSE</Variable>
+  <Variable
+    Name="NSE"
+    Comment=""
+    EvaluatedDefinition="NSE">NSE</Variable>
+  <Variable
+    Name="CME"
+    Comment=""
+    EvaluatedDefinition="CME">CME</Variable>
+  <Variable
+    Name="ISE"
+    Comment=""
+    EvaluatedDefinition="ISE">ISE</Variable>
+  <Variable
+    Name="BMF"
+    Comment=""
+    EvaluatedDefinition="BMF">BMF</Variable>
+  <Variable
+    Name="TotalView"
+    Comment=""
+    EvaluatedDefinition="Total View">Total View</Variable>
+  <Variable
+    Name="Book"
+    Comment=""
+    EvaluatedDefinition="Book">Book</Variable>
+  <Variable
+    Name="OpenBookRealTime"
+    Comment=""
+    EvaluatedDefinition="Open Book Real Time">Open Book Real Time</Variable>
+  <Variable
+    Name="Canada"
+    Comment=""
+    EvaluatedDefinition="Canada">Canada</Variable>
+  <Variable
+    Name="Brazil"
+    Comment=""
+    EvaluatedDefinition="Brazil">Brazil</Variable>
+  <Variable
+    Name="India"
+    Comment=""
+    EvaluatedDefinition="India">India</Variable>
+  <Variable
+    Name="USFutures"
+    Comment=""
+    EvaluatedDefinition="US Futures">US Futures</Variable>
+  <Variable
+    Name="BrazilFutures"
+    Comment=""
+    EvaluatedDefinition="Brazil Futures">Brazil Futures</Variable>
+  <Variable
+    Name="Bloomberg"
+    Comment=""
+    EvaluatedDefinition="Bloomberg">Bloomberg</Variable>
+  <Variable
+    Name="Reuters"
+    Comment=""
+    EvaluatedDefinition="Reuters">Reuters</Variable>
+  <Variable
+    Name="InteractiveData"
+    Comment=""
+    EvaluatedDefinition="Interactive Data">Interactive Data</Variable>
+  <Variable
+    Name="ActivFinancial"
+    Comment=""
+    EvaluatedDefinition="Activ Financial">Activ Financial</Variable>
+  <Variable
+    Name="SpryWare"
+    Comment=""
+    EvaluatedDefinition="SpryWare">SpryWare</Variable>
+  <Variable
+    Name="CQG"
+    Comment=""
+    EvaluatedDefinition="CQG">CQG</Variable>
+  <Variable
+    Name="Wombat"
+    Comment=""
+    EvaluatedDefinition="Wombat">Wombat</Variable>
+  <Variable
+    Name="LimeData"
+    Comment=""
+    EvaluatedDefinition="Lime Data">Lime Data</Variable>
+  <Variable
+    Name="FTEN"
+    Comment=""
+    EvaluatedDefinition="FTEN">FTEN</Variable>
+  <Variable
+    Name="InternationalEquities"
+    Comment=""
+    EvaluatedDefinition="International Equities">International Equities</Variable>
+  <Variable
+    Name="Options"
+    Comment=""
+    EvaluatedDefinition="Options">Options</Variable>
+  <Variable
+    Name="Futures"
+    Comment=""
+    EvaluatedDefinition="Futures">Futures</Variable>
+  <Variable
+    Name="Currencies"
+    Comment=""
+    EvaluatedDefinition="Currencies">Currencies</Variable>
+  <Variable
+    Name="Equities"
+    Comment=""
+    EvaluatedDefinition="Equities">Equities</Variable>
+  <Variable
+    Name="ConsolidatedData"
+    Comment=""
+    EvaluatedDefinition="Consolidated Data">Consolidated Data</Variable>
+  <Variable
+    Name="NotConsolidatedData"
+    Comment=""
+    EvaluatedDefinition="Not Consolidated Data">Not Consolidated Data</Variable>
+  <Variable
+    Name="QuotesConsolidated"
+    Comment=""
+    EvaluatedDefinition="Quotes Consolidated">Quotes Consolidated</Variable>
+  <Variable
+    Name="TradesNotConsolidated"
+    Comment=""
+    EvaluatedDefinition="Trades Not Consolidated">Trades Not Consolidated</Variable>
+  <Variable
+    Name="CSymConnection"
+    Comment=""
+    EvaluatedDefinition="CSymConnection">CSymConnection</Variable>
+  <Variable
+    Name="CSymListener"
+    Comment=""
+    EvaluatedDefinition="CSymListener">CSymListener</Variable>
+  <Variable
+    Name="CSymConnection.AddClient"
+    Comment=""
+    EvaluatedDefinition="CSymConnection.AddClient">CSymConnection.AddClient</Variable>
+  <Variable
+    Name="Callback"
+    Comment=""
+    EvaluatedDefinition="Callback">Callback</Variable>
+  <Variable
+    Name="OnData(constchar*szSymbol,constCSymData*pData)"
+    Comment=""
+    EvaluatedDefinition="OnData (const char *szSymbol, const CSymData *pData)">OnData (const char *szSymbol, const CSymData *pData)</Variable>
+  <Variable
+    Name="MarketDataDepthAPI"
+    Comment=""
+    EvaluatedDefinition="Market Data Depth API">Market Data Depth API</Variable>
+  <Variable
+    Name="dist_flex"
+    Comment=""
+    EvaluatedDefinition="dist_flex">dist_flex</Variable>
+  <Variable
+    Name="CDepthConnection"
+    Comment=""
+    EvaluatedDefinition="CDepthConnection">CDepthConnection</Variable>
+  <Variable
+    Name="CDepthListener"
+    Comment=""
+    EvaluatedDefinition="CDepthListener">CDepthListener</Variable>
+  <Variable
+    Name="CDepthConnection.AddClient"
+    Comment=""
+    EvaluatedDefinition="CDepthConnection.AddClient">CDepthConnection.AddClient</Variable>
+  <Variable
+    Name="CMyDepthListener"
+    Comment=""
+    EvaluatedDefinition="CMyDepthListener">CMyDepthListener</Variable>
+  <Variable
+    Name="OnDepthData"
+    Comment=""
+    EvaluatedDefinition="OnDepthData">OnDepthData</Variable>
+  <Variable
+    Name="SymAdaptor"
+    Comment=""
+    EvaluatedDefinition="SymAdaptor">SymAdaptor</Variable>
+  <Variable
+    Name="APIs"
+    Comment=""
+    EvaluatedDefinition="APIs">APIs</Variable>
+  <Variable
+    Name="ApplicationProgrammingInterface(API)"
+    Comment=""
+    EvaluatedDefinition="Application Programming Interface (API)">Application Programming Interface (API)</Variable>
+  <Variable
+    Name="ApplicationProgrammingInterface"
+    Comment=""
+    EvaluatedDefinition="Application Programming Interface">Application Programming Interface</Variable>
+  <Variable
+    Name="OnSubscribe"
+    Comment=""
+    EvaluatedDefinition="OnSubscribe">OnSubscribe</Variable>
+  <Variable
+    Name="OnUnsubscribe"
+    Comment=""
+    EvaluatedDefinition="OnUnsubscribe">OnUnsubscribe</Variable>
+  <Variable
+    Name="blocking/non-blocking"
+    Comment=""
+    EvaluatedDefinition="blocking/non-blocking">blocking/non-blocking</Variable>
+  <Variable
+    Name="Initialize()"
+    Comment=""
+    EvaluatedDefinition="Initialize()">Initialize()</Variable>
+  <Variable
+    Name="select/poll"
+    Comment=""
+    EvaluatedDefinition="select/poll">select/poll</Variable>
+  <Variable
+    Name="Accept()"
+    Comment=""
+    EvaluatedDefinition="Accept()">Accept()</Variable>
+  <Variable
+    Name="ClientFd"
+    Comment=""
+    EvaluatedDefinition="ClientFd">ClientFd</Variable>
+  <Variable
+    Name="CheckSocket()"
+    Comment=""
+    EvaluatedDefinition="CheckSocket()">CheckSocket()</Variable>
+  <Variable
+    Name="OnSubscribe()"
+    Comment=""
+    EvaluatedDefinition="OnSubscribe()">OnSubscribe()</Variable>
+  <Variable
+    Name="CreateTick()"
+    Comment=""
+    EvaluatedDefinition="CreateTick()">CreateTick()</Variable>
+  <Variable
+    Name="Flush()"
+    Comment=""
+    EvaluatedDefinition="Flush()">Flush()</Variable>
+  <Variable
+    Name="ListenNewClient()"
+    Comment=""
+    EvaluatedDefinition="ListenNewClient()">ListenNewClient()</Variable>
+  <Variable
+    Name="DataPools"
+    Comment=""
+    EvaluatedDefinition="DataPools">DataPools</Variable>
+  <Variable
+    Name="intnPort"
+    Comment=""
+    EvaluatedDefinition="int nPort">int nPort</Variable>
+  <Variable
+    Name="boolbBlock"
+    Comment=""
+    EvaluatedDefinition="bool bBlock">bool bBlock</Variable>
+  <Variable
+    Name="constchar*szService"
+    Comment=""
+    EvaluatedDefinition="const char* szService">const char* szService</Variable>
+  <Variable
+    Name="ListenNewClient"
+    Comment=""
+    EvaluatedDefinition="ListenNewClient">ListenNewClient</Variable>
+  <Variable
+    Name="fd_setreadF"
+    Comment=""
+    EvaluatedDefinition="fd_set readF">fd_set readF</Variable>
+  <Variable
+    Name="fd_set"
+    Comment=""
+    EvaluatedDefinition="fd_set">fd_set</Variable>
+  <Variable
+    Name="GetBindFd()"
+    Comment=""
+    EvaluatedDefinition="GetBindFd()">GetBindFd()</Variable>
+  <Variable
+    Name="intGetBindFd()"
+    Comment=""
+    EvaluatedDefinition="int GetBindFd()">int GetBindFd()</Variable>
+  <Variable
+    Name="boolListenNewClient(boolbBlock)"
+    Comment=""
+    EvaluatedDefinition="bool ListenNewClient(bool bBlock)">bool ListenNewClient(bool bBlock)</Variable>
+  <Variable
+    Name="intGetClientFd()"
+    Comment=""
+    EvaluatedDefinition="int GetClientFd()">int GetClientFd()</Variable>
+  <Variable
+    Name="CheckSocket"
+    Comment=""
+    EvaluatedDefinition="CheckSocket">CheckSocket</Variable>
+  <Variable
+    Name="boolCheckSocket(fd_set*pReadF)"
+    Comment=""
+    EvaluatedDefinition="bool CheckSocket(fd_set *pReadF)">bool CheckSocket(fd_set *pReadF)</Variable>
+  <Variable
+    Name="OnLogin"
+    Comment=""
+    EvaluatedDefinition="OnLogin">OnLogin</Variable>
+  <Variable
+    Name="OnLogout"
+    Comment=""
+    EvaluatedDefinition="OnLogout">OnLogout</Variable>
+  <Variable
+    Name="fd_set*pReadF"
+    Comment=""
+    EvaluatedDefinition="fd_set *pReadF">fd_set *pReadF</Variable>
+  <Variable
+    Name="CSymData*CreateTick(constchar*szSymbol)"
+    Comment=""
+    EvaluatedDefinition="CSymData* CreateTick(const char *szSymbol)">CSymData* CreateTick(const char *szSymbol)</Variable>
+  <Variable
+    Name="constchar*szSymbol"
+    Comment=""
+    EvaluatedDefinition="const char* szSymbol">const char* szSymbol</Variable>
+  <Variable
+    Name="CSymData*CreatePopulatedTick(char*pData,intnDataLen)"
+    Comment=""
+    EvaluatedDefinition="CSymData* CreatePopulatedTick(char* pData, int nDataLen)">CSymData* CreatePopulatedTick(char* pData, int nDataLen)</Variable>
+  <Variable
+    Name="boolFlush(boolbSnapshot=false)"
+    Comment=""
+    EvaluatedDefinition="bool Flush(bool bSnapshot = false)">bool Flush(bool bSnapshot = false)</Variable>
+  <Variable
+    Name="CreateTick"
+    Comment=""
+    EvaluatedDefinition="CreateTick">CreateTick</Variable>
+  <Variable
+    Name="boolbSnapshot"
+    Comment=""
+    EvaluatedDefinition="bool bSnapshot">bool bSnapshot</Variable>
+  <Variable
+    Name="boolSetTickField(CSymData*pSymData,intnFlid,charcValue)/bool"
+    Comment=""
+    EvaluatedDefinition="bool SetTickField(CSymData* pSymData, int nFlid, char cValue)/ bool">bool SetTickField(CSymData* pSymData, int nFlid, char cValue)/ bool</Variable>
+  <Variable
+    Name="SetTickField(CSymData*pSymData,intnFlid,intnValue)/bool"
+    Comment=""
+    EvaluatedDefinition="SetTickField(CSymData* pSymData, int nFlid, int nValue)/ bool">SetTickField(CSymData* pSymData, int nFlid, int nValue)/ bool</Variable>
+  <Variable
+    Name="SetTickField(CSymData*pSymData,intnFlid,doubledblValue)/bool"
+    Comment=""
+    EvaluatedDefinition="SetTickField(CSymData* pSymData, int nFlid, double dblValue)/ bool">SetTickField(CSymData* pSymData, int nFlid, double dblValue)/ bool</Variable>
+  <Variable
+    Name="SetTickField(CSymData*pSymData,intnFlid,constchar*szValue)"
+    Comment=""
+    EvaluatedDefinition="SetTickField(CSymData* pSymData, int nFlid, const char * szValue)">SetTickField(CSymData* pSymData, int nFlid, const char * szValue)</Variable>
+  <Variable
+    Name="CSymData*pSymData"
+    Comment=""
+    EvaluatedDefinition="CSymData* pSymData">CSymData* pSymData</Variable>
+  <Variable
+    Name="IntnFlid"
+    Comment=""
+    EvaluatedDefinition="Int nFlid">Int nFlid</Variable>
+  <Variable
+    Name="CSymData::flid_&lt;name&gt;"
+    Comment=""
+    EvaluatedDefinition="CSymData::flid_&lt;name&gt;">CSymData::flid_&lt;name&gt;</Variable>
+  <Variable
+    Name="CSymData::flid_bid"
+    Comment=""
+    EvaluatedDefinition="CSymData::flid_bid">CSymData::flid_bid</Variable>
+  <Variable
+    Name="boolCloseClient()"
+    Comment=""
+    EvaluatedDefinition="bool CloseClient()">bool CloseClient()</Variable>
+  <Variable
+    Name="virtualvoidSendSnapshot(constchar*szSymbol)"
+    Comment=""
+    EvaluatedDefinition="virtual void SendSnapshot(const char* szSymbol)">virtual void SendSnapshot(const char* szSymbol)</Variable>
+  <Variable
+    Name="Constchar*szSymbol"
+    Comment=""
+    EvaluatedDefinition="Const char* szSymbol">Const char* szSymbol</Variable>
+  <Variable
+    Name="voidOnLogon()"
+    Comment=""
+    EvaluatedDefinition="void OnLogon()">void OnLogon()</Variable>
+  <Variable
+    Name="voidOnLogout()"
+    Comment=""
+    EvaluatedDefinition="void OnLogout()">void OnLogout()</Variable>
+  <Variable
+    Name="virtualvoidOnSubscribe(constchar*szSymbol)"
+    Comment=""
+    EvaluatedDefinition="virtual void OnSubscribe(const char* szSymbol)">virtual void OnSubscribe(const char* szSymbol)</Variable>
+  <Variable
+    Name="virtualvoidOnUnsubscribe(const char*szSymbol)"
+    Comment=""
+    EvaluatedDefinition="virtual void OnUnsubscribe(const char* szSymbol)">virtual void OnUnsubscribe(const char* szSymbol)</Variable>
+  <Variable
+    Name="SymAdaptorAPI"
+    Comment=""
+    EvaluatedDefinition="SymAdaptorAPI">SymAdaptorAPI</Variable>
+  <Variable
+    Name="HSYMTICK SymCreateTick(constchar*szSymbol)"
+    Comment=""
+    EvaluatedDefinition="HSYMTICK SymCreateTick (const char* szSymbol)">HSYMTICK SymCreateTick (const char* szSymbol)</Variable>
+  <Variable
+    Name="HSYMTICKLISTSymCreateTickList()"
+    Comment=""
+    EvaluatedDefinition="HSYMTICKLIST SymCreateTickList()">HSYMTICKLIST SymCreateTickList()</Variable>
+  <Variable
+    Name="SymAddTick"
+    Comment=""
+    EvaluatedDefinition="SymAddTick">SymAddTick</Variable>
+  <Variable
+    Name="intSymReleaseTickList(HSYMTICKLISThList,HSYMIOhSymIO)"
+    Comment=""
+    EvaluatedDefinition="int SymReleaseTickList(HSYMTICKLIST hList, HSYMIO hSymIO)">int SymReleaseTickList(HSYMTICKLIST hList, HSYMIO hSymIO)</Variable>
+  <Variable
+    Name="HSYMTICKLISThList"
+    Comment=""
+    EvaluatedDefinition="HSYMTICKLIST hList">HSYMTICKLIST hList</Variable>
+  <Variable
+    Name="HSYMIOhSymIO"
+    Comment=""
+    EvaluatedDefinition="HSYMIO hSymIO">HSYMIO hSymIO</Variable>
+  <Variable
+    Name="intSymAddTick(HSYMTICKLISThList,HSYMTICKhTick)"
+    Comment=""
+    EvaluatedDefinition="int SymAddTick(HSYMTICKLIST hList, HSYMTICK hTick)">int SymAddTick(HSYMTICKLIST hList, HSYMTICK hTick)</Variable>
+  <Variable
+    Name="HTICKhTick"
+    Comment=""
+    EvaluatedDefinition="HTICK hTick">HTICK hTick</Variable>
+  <Variable
+    Name="intSymSetDouble(HSYMTICKhTick,intnFlid,doublevalue)"
+    Comment=""
+    EvaluatedDefinition="int SymSetDouble(HSYMTICK hTick, int nFlid, double value)">int SymSetDouble(HSYMTICK hTick, int nFlid, double value)</Variable>
+  <Variable
+    Name="nFlid"
+    Comment=""
+    EvaluatedDefinition="nFlid">nFlid</Variable>
+  <Variable
+    Name="HSYMTICKhTick"
+    Comment=""
+    EvaluatedDefinition="HSYMTICK hTick">HSYMTICK hTick</Variable>
+  <Variable
+    Name="CSymData::flid_*"
+    Comment=""
+    EvaluatedDefinition="CSymData::flid_*">CSymData::flid_*</Variable>
+  <Variable
+    Name="SymSetInt(HSYMTICKhTick,intnFlid,intvalue)"
+    Comment=""
+    EvaluatedDefinition="SymSetInt(HSYMTICK hTick, int nFlid, int value)">SymSetInt(HSYMTICK hTick, int nFlid, int value)</Variable>
+  <Variable
+    Name="intSymSetInt(HSYMTICKhTick,intnFlid,intvalue)"
+    Comment=""
+    EvaluatedDefinition="int SymSetInt(HSYMTICK hTick, int nFlid, int value)">int SymSetInt(HSYMTICK hTick, int nFlid, int value)</Variable>
+  <Variable
+    Name="intvalue"
+    Comment=""
+    EvaluatedDefinition="int value">int value</Variable>
+  <Variable
+    Name="intSymSetString(HSYMTICKhTick,intnFlid,constchar*value)"
+    Comment=""
+    EvaluatedDefinition="int SymSetString(HSYMTICK hTick, int nFlid, const char* value)">int SymSetString(HSYMTICK hTick, int nFlid, const char* value)</Variable>
+  <Variable
+    Name="Char*value"
+    Comment=""
+    EvaluatedDefinition="Char* value">Char* value</Variable>
+  <Variable
+    Name="intSymSetChar(HSYMTICKhTick,intnFlid,charvalue)"
+    Comment=""
+    EvaluatedDefinition="int SymSetChar(HSYMTICK hTick, int nFlid, char value)">int SymSetChar(HSYMTICK hTick, int nFlid, char value)</Variable>
+  <Variable
+    Name="SymGetInput(HSYMIOhSymIO)"
+    Comment=""
+    EvaluatedDefinition="SymGetInput(HSYMIO hSymIO)">SymGetInput(HSYMIO hSymIO)</Variable>
+  <Variable
+    Name="hSymIO"
+    Comment=""
+    EvaluatedDefinition="hSymIO">hSymIO</Variable>
+  <Variable
+    Name="SymSendSig(HSYMIOhSymIO,AdaptorSignalnSignal)"
+    Comment=""
+    EvaluatedDefinition="SymSendSig(HSYMIO hSymIO, AdaptorSignal nSignal)">SymSendSig(HSYMIO hSymIO, AdaptorSignal nSignal)</Variable>
+  <Variable
+    Name="intSymSendSig(HSYMIOhSymIO,AdaptorSignalnSignal)"
+    Comment=""
+    EvaluatedDefinition="int SymSendSig(HSYMIO hSymIO, AdaptorSignal nSignal)">int SymSendSig(HSYMIO hSymIO, AdaptorSignal nSignal)</Variable>
+  <Variable
+    Name="AdaptorSignalnSignal"
+    Comment=""
+    EvaluatedDefinition="AdaptorSignal nSignal">AdaptorSignal nSignal</Variable>
+  <Variable
+    Name="SIG_SYM_ADPT_ACTIVATE"
+    Comment=""
+    EvaluatedDefinition="SIG_SYM_ADPT_ACTIVATE">SIG_SYM_ADPT_ACTIVATE</Variable>
+  <Variable
+    Name="SIG_SYM_ADPT_DEACTIVATE"
+    Comment=""
+    EvaluatedDefinition="SIG_SYM_ADPT_DEACTIVATE">SIG_SYM_ADPT_DEACTIVATE</Variable>
+  <Variable
+    Name="void*Run(constchar*szConfigFile,constchar*szSourceName,HSYMIOhSymIO,FDSYMINPUTfdSymInput)"
+    Comment=""
+    EvaluatedDefinition="void* Run(const char* szConfigFile, const char* szSourceName, HSYMIO hSymIO, FDSYMINPUT fdSymInput)">void* Run(const char* szConfigFile, const char* szSourceName, HSYMIO hSymIO, FDSYMINPUT fdSymInput)</Variable>
+  <Variable
+    Name="Constchar*szConfigFile"
+    Comment=""
+    EvaluatedDefinition="Const char* szConfigFile">Const char* szConfigFile</Variable>
+  <Variable
+    Name="Constchar*szSourceName"
+    Comment=""
+    EvaluatedDefinition="Const char* szSourceName">Const char* szSourceName</Variable>
+  <Variable
+    Name="FDSYMINPUTfdSymInput"
+    Comment=""
+    EvaluatedDefinition="FDSYMINPUT fdSymInput">FDSYMINPUT fdSymInput</Variable>
+  <Variable
+    Name="SymGetInput"
+    Comment=""
+    EvaluatedDefinition="SymGetInput">SymGetInput</Variable>
+  <Variable
+    Name="intOnShutdown()"
+    Comment=""
+    EvaluatedDefinition="int OnShutdown()">int OnShutdown()</Variable>
+  <Variable
+    Name="OnSubscribe(constchar*szSymbol)"
+    Comment=""
+    EvaluatedDefinition="OnSubscribe(const char* szSymbol)">OnSubscribe(const char* szSymbol)</Variable>
+  <Variable
+    Name="intOnSubscribe(constchar*szSymbol)"
+    Comment=""
+    EvaluatedDefinition="int OnSubscribe(const char* szSymbol)">int OnSubscribe(const char* szSymbol)</Variable>
+  <Variable
+    Name="intOnUnSubscribe(constchar*szSymbol)"
+    Comment=""
+    EvaluatedDefinition="int OnUnSubscribe(const char* szSymbol)">int OnUnSubscribe(const char* szSymbol)</Variable>
+  <Variable
+    Name="intOnSignal(intnSignal)"
+    Comment=""
+    EvaluatedDefinition="int OnSignal(int nSignal)">int OnSignal(int nSignal)</Variable>
+  <Variable
+    Name="IntnSignal"
+    Comment=""
+    EvaluatedDefinition="Int nSignal">Int nSignal</Variable>
+  <Variable
+    Name="boolIsSecure()"
+    Comment=""
+    EvaluatedDefinition="bool IsSecure()">bool IsSecure()</Variable>
+  <Variable
+    Name="Initialize/ListenNewClient"
+    Comment=""
+    EvaluatedDefinition="Initialize/ListenNewClient">Initialize/ListenNewClient</Variable>
+  <Variable
+    Name="ADAPTOR_NAME"
+    Comment=""
+    EvaluatedDefinition="ADAPTOR_NAME">ADAPTOR_NAME</Variable>
+  <Variable
+    Name="IsSecure"
+    Comment=""
+    EvaluatedDefinition="IsSecure">IsSecure</Variable>
+  <Variable
+    Name="SymCreateTick"
+    Comment=""
+    EvaluatedDefinition="SymCreateTick">SymCreateTick</Variable>
+  <Variable
+    Name="SymReleaseTickList"
+    Comment=""
+    EvaluatedDefinition="SymReleaseTickList">SymReleaseTickList</Variable>
+  <Variable
+    Name="GrowingStr"
+    Comment=""
+    EvaluatedDefinition="GrowingStr">GrowingStr</Variable>
+  <Variable
+    Name="SymSetChar"
+    Comment=""
+    EvaluatedDefinition="SymSetChar">SymSetChar</Variable>
+  <Variable
+    Name="SymSetInt"
+    Comment=""
+    EvaluatedDefinition="SymSetInt">SymSetInt</Variable>
+  <Variable
+    Name="SymSetDouble"
+    Comment=""
+    EvaluatedDefinition="SymSetDouble">SymSetDouble</Variable>
+  <Variable
+    Name="SymSetString"
+    Comment=""
+    EvaluatedDefinition="SymSetString">SymSetString</Variable>
+  <Variable
+    Name="SetTickField"
+    Comment=""
+    EvaluatedDefinition="SetTickField">SetTickField</Variable>
+  <Variable
+    Name="TickList"
+    Comment=""
+    EvaluatedDefinition="Tick List">Tick List</Variable>
+  <Variable
+    Name="SymClient"
+    Comment=""
+    EvaluatedDefinition="Sym Client">Sym Client</Variable>
+  <Variable
+    Name="MySymProxy"
+    Comment=""
+    EvaluatedDefinition="MySymProxy">MySymProxy</Variable>
+  <Variable
+    Name="GenerateTicks()"
+    Comment=""
+    EvaluatedDefinition="GenerateTicks()">GenerateTicks()</Variable>
+  <Variable
+    Name="VersionNumber"
+    OriginalName="VersionNumberDot">1.0</Variable>
+  <Variable
+    Name="PDFGuideTitle"
+    Comment=""
+    OriginalName="PDFGuideTitle">User Guide</Variable>
+  <Variable
+    Name="FlexBar"
+    Comment=""
+    EvaluatedDefinition="FlexBar">FlexBar</Variable>
+  <Variable
+    Name="MyShortcuts"
+    Comment=""
+    EvaluatedDefinition="My Shortcuts">My Shortcuts</Variable>
+  <Variable
+    Name="PreTrade"
+    Comment=""
+    EvaluatedDefinition="PreTrade">PreTrade</Variable>
+  <Variable
+    Name="Analytics"
+    Comment=""
+    EvaluatedDefinition="Analytics">Analytics</Variable>
+  <Variable
+    Name="Charts/Visualizations"
+    Comment=""
+    EvaluatedDefinition="Charts/Visualizations">Charts/Visualizations</Variable>
+  <Variable
+    Name="ATS-Dark"
+    Comment=""
+    EvaluatedDefinition="ATS-Dark">ATS-Dark</Variable>
+  <Variable
+    Name="CashDesk"
+    Comment=""
+    EvaluatedDefinition="Cash Desk">Cash Desk</Variable>
+  <Variable
+    Name="Algos"
+    Comment=""
+    EvaluatedDefinition="Algos">Algos</Variable>
+  <Variable
+    Name="PostTrade"
+    Comment=""
+    EvaluatedDefinition="PostTrade">PostTrade</Variable>
+  <Variable
+    Name="Filters/Grouping"
+    Comment=""
+    EvaluatedDefinition="Filters/Grouping">Filters/Grouping</Variable>
+  <Variable
+    Name="Navigate"
+    Comment=""
+    EvaluatedDefinition="Navigate">Navigate</Variable>
+  <Variable
+    Name="Save"
+    Comment=""
+    EvaluatedDefinition="Save">Save</Variable>
+  <Variable
+    Name="Cancel"
+    Comment=""
+    EvaluatedDefinition="Cancel">Cancel</Variable>
+  <Variable
+    Name="NewShortcut"
+    Comment=""
+    EvaluatedDefinition="New Shortcut">New Shortcut</Variable>
+  <Variable
+    Name="ShortcutProperties"
+    Comment=""
+    EvaluatedDefinition="Shortcut Properties">Shortcut Properties</Variable>
+  <Variable
+    Name="NewTab"
+    Comment=""
+    EvaluatedDefinition="New Tab">New Tab</Variable>
+  <Variable
+    Name="DeleteActiveTab"
+    Comment=""
+    EvaluatedDefinition="Delete Active Tab">Delete Active Tab</Variable>
+  <Variable
+    Name="Quickbar"
+    Comment=""
+    EvaluatedDefinition="Quickbar">Quickbar</Variable>
+  <Variable
+    Name="QBXML"
+    Comment=""
+    EvaluatedDefinition="QBXML">QBXML</Variable>
+  <Variable
+    Name="Import/Export"
+    Comment=""
+    EvaluatedDefinition="Import/Export">Import/Export</Variable>
+  <Variable
+    Name="ActiveTab"
+    Comment=""
+    EvaluatedDefinition="Active Tab">Active Tab</Variable>
+  <Variable
+    Name="FormulaBuilder"
+    Comment=""
+    EvaluatedDefinition="Formula Builder">Formula Builder</Variable>
+  <Variable
+    Name="EditShortcut"
+    Comment=""
+    EvaluatedDefinition="Edit Shorcut">Edit Shorcut</Variable>
+  <Variable
+    Name="EditRule"
+    Comment=""
+    EvaluatedDefinition="Edit Rule">Edit Rule</Variable>
+  <Variable
+    Name="BuildTheSelectedFunction"
+    Comment=""
+    EvaluatedDefinition="Build the selected function">Build the selected function</Variable>
+  <Variable
+    Name="RenameActiveTab"
+    Comment=""
+    EvaluatedDefinition="Rename Active Tab">Rename Active Tab</Variable>
+  <Variable
+    Name="LabelProperties"
+    Comment=""
+    EvaluatedDefinition="Label Properties">Label Properties</Variable>
+  <Variable
+    Name="Label"
+    Comment=""
+    EvaluatedDefinition="Label">Label</Variable>
+  <Variable
+    Name="UserManual"
+    Comment=""
+    EvaluatedDefinition="UserManual">UserManual</Variable>
+  <Variable
+    Name="FlexTradeSystemsInc"
+    Comment=""
+    EvaluatedDefinition="FlexTrade Systems, Inc.">FlexTrade Systems, Inc.</Variable>
+  <Variable
+    Name="111GreatNeckRoad"
+    Comment=""
+    EvaluatedDefinition="111 Great Neck Road">111 Great Neck Road</Variable>
+  <Variable
+    Name="Suite314"
+    Comment=""
+    EvaluatedDefinition="Suite 314">Suite 314</Variable>
+  <Variable
+    Name="GreatNeckNY11021"
+    Comment=""
+    EvaluatedDefinition="Great Neck, NY 11021">Great Neck, NY 11021</Variable>
+</CatapultVariableSet>

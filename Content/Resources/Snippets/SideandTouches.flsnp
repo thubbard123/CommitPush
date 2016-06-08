@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="117" MadCap:lastWidth="620">
+    <head>
+        <link href="../TableStyles/Info.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <table style="mc-table-style: url('../TableStyles/Info.css');" class="TableStyle-Info" cellspacing="0">
+            <col class="TableStyle-Info-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Info-Body-Body1" MadCap:conditions="">
+                    <td class="TableStyle-Info-BodyA-Column1-Body1">
+                        <p>See <a href="../../MaxxTrader/OrderTypes/MarketSide.htm">Market Sides</a> and <a href="../../MaxxTrader/OrderTypes/Touches.htm">Touches</a> for more information on placing <b>Stop</b> orders. </p>
+                        <p>If the  order is not executed it will remain working until it expires. See <a href="../../MaxxTrader/OrderTypes/OrderExpiry.htm">Order Expiry</a> for information on how to set the <b>Expiry</b> for an order.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

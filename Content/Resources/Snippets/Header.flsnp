@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="88" MadCap:lastWidth="620" MadCap:conditions="General.PDF">
+    <head>
+    </head>
+    <body>
+        <p>&#160;</p>
+        <table style="width: 100%;border-spacing: 0px 0px;margin-left: 0;margin-right: auto;">
+            <col />
+            <tbody>
+                <tr>
+                    <td style="color: #696969;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #dcdcdc;"><MadCap:variable name="General.CompanyName" /> <MadCap:variable name="General.ProductName2" /> <MadCap:variable name="General.DocumentType" /> <MadCap:variable name="General.ProductVersionFull" /></td>
+                </tr>
+                <tr>
+                    <td>&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

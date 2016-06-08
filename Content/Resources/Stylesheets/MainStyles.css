@@ -1,0 +1,1786 @@
+/*<meta />*/
+
+@import url('../prettify/prettify.css');
+
+/*@import url('../../FlexTrade_Order_Management_API_Java_Source/doxygen.css');
+
+@import url('../../Flextrade_Order_Management_API_Source_C++/doxygen.css'); */
+
+html
+{
+	overflow: -moz-scrollbars-vertical;
+	overflow-y: scroll;
+}
+
+body
+{
+	color: #000000;
+	font-family: Segoe UI;
+	line-height: 1.7em;
+	min-height: 100vh;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a.MCBreadcrumbsLink:link
+{
+	color: #22b24c;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: #000000;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #BED230;
+}
+
+/* added for javascript/C++ doxygen output: ssrikond: 05192016
+
+div
+{
+	overflow: scroll;
+}
+ */
+
+Div.GlossaryPageDefinition
+{
+	
+}
+
+Div.GlossaryPageHeading
+{
+	
+}
+
+Div.GlossaryPageTerm
+{
+	
+}
+
+div.TopicContent
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 25px;
+}
+
+h1
+{
+	margin-bottom: 8px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	color: #22b24c;
+	font-family: 'Segoe UI';
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: left;
+	page-break-before: always;
+}
+
+h2
+{
+	margin-bottom: 4px;
+	margin-top: 20px;
+	color: #22b24c;
+	font-family: 'Segoe UI';
+	font-size: 18pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+h3
+{
+	margin-bottom: 4px;
+	margin-top: 16px;
+	color: #22b24c;
+	font-family: 'Segoe UI';
+	font-size: 16pt;
+	font-weight: bold;
+	display: block;
+	text-align: left;
+}
+
+li
+{
+	margin-top: 6px;
+	orphans: 2;
+	widows: 2;
+	font-size: 12pt;
+	font-family: 'Segoe UI';
+	mc-auto-number-format: ' ';
+	list-style-image: none;
+	margin-bottom: 6px;
+}
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: .7em;
+	font-style: italic;
+	mc-breadcrumbs-prefix: '';
+	color: #22b24c;
+}
+
+MadCap|glossaryProxy
+{
+	
+}
+
+MadCap|indexProxy
+{
+	
+}
+
+MadCap|tocProxy
+{
+	
+}
+
+MadCap|xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	mc-format: '{para}';
+	text-decoration: underline;
+}
+
+MadCap|xref:hover
+{
+	color: #BED230;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	color: 000000;
+	font-family: 'Segoe UI';
+	font-size: 12pt;
+	overflow: hidden;
+}
+
+p.FrameFooterText
+{
+	
+}
+
+p.IndexHeading
+{
+	
+}
+
+div.sideContent
+{
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 33.33%;
+}
+
+html.templateTopic div.sideContent
+{
+	display: none;
+}
+
+h4
+{
+	color: #22b24c;
+	font-family: 'Segoe UI';
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+h5
+{
+	color: #22b24c;
+	font-family: 'Segoe UI';
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: left;
+}
+
+a
+{
+	color: 22b24c;
+	font-family: 'Segoe UI';
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+pre
+{
+	border-left: solid 4px #a6a6a6;
+	background: #f5f5f5;
+	text-indent: 5px;
+	font-family: 'Courier New';
+	font-size: 12pt;
+	margin-left: 5px;
+	padding-left: 5px;
+}
+
+ul
+{
+	font-size: 12pt;
+	font-family: 'Segoe UI';
+}
+
+li.bullets
+{
+	
+}
+
+li.numbers
+{
+	list-style-image: none;
+}
+
+ol.linenums
+{
+	
+}
+
+@media print
+{
+	body
+	{
+		font-size: 12pt;
+		font-family: 'Segoe UI';
+		color: #000000;
+		line-height: 16pt;
+		margin: 0pt;
+		letter-spacing: 0px;
+	}
+
+	text
+	{
+		fill: #121b28;
+	}
+
+	span.num
+	{
+		color: #0da344;
+	}
+
+	span.esc
+	{
+		color: #a764cb;
+	}
+
+	span.str
+	{
+		color: #2b83ba;
+	}
+
+	span.pps
+	{
+		color: #2b83ba;
+	}
+
+	span.slc
+	{
+		color: #ababab;
+		font-style: italic;
+	}
+
+	span.com
+	{
+		color: #ababab;
+		font-style: italic;
+	}
+
+	span.ppc
+	{
+		color: #620ac6;
+	}
+
+	span.opt
+	{
+		color: #0000de;
+	}
+
+	span.ipl
+	{
+		color: #cc60a3;
+	}
+
+	span.lin
+	{
+		color: #22b24c;
+	}
+
+	span.kwa
+	{
+		color: #0a7f6d;
+		font-weight: bold;
+	}
+
+	span.kwb
+	{
+		color: #c42638;
+		font-weight: bold;
+	}
+
+	span.kwc
+	{
+		color: #e12f76;
+	}
+
+	span.kwd
+	{
+		color: #2ac749;
+	}
+
+	Div.GlossaryPageDefinition
+	{
+		font-size: 9pt;
+	}
+
+	Div.GlossaryPageHeading
+	{
+		border-bottom-color: #bed230;
+		border-bottom-style: solid;
+		border-bottom-width: 1px;
+		font-size: 11pt;
+		color: #22b24c;
+	}
+
+	Div.GlossaryPageTerm
+	{
+		font-size: 10pt;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		color: #22b24c;
+	}
+
+	h1
+	{
+		border-bottom: none;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		color: #22b24c;
+		font-weight: bold;
+		font-family: 'Segoe UI';
+		margin: 0pt;
+		margin-bottom: 12pt;
+		font-size: 20pt;
+		margin-top: 18pt;
+		line-height: 30pt;
+	}
+
+	h2
+	{
+		font-weight: bold;
+		color: #808080;
+		font-family: 'Segoe UI';
+		margin: 0;
+		margin-bottom: 6pt;
+		line-height: 20pt;
+		margin-top: 18pt;
+		font-size: 18pt;
+	}
+
+	h3
+	{
+		font-weight: bold;
+		mc-heading-level: 3;
+		color: #808080;
+		margin: 0;
+		line-height: 20pt;
+		margin-bottom: 6pt;
+		font-family: 'Segoe UI';
+		font-size: 16pt;
+	}
+
+	h4
+	{
+		mc-heading-level: 0;
+		font-style: normal;
+		color: #808080;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+		line-height: 20pt;
+		margin: 0;
+		margin-bottom: 6pt;
+		font-size: 14pt;
+	}
+
+	MadCap|glossaryProxy
+	{
+		border-top: none;
+		font-family: 'Segoe UI';
+	}
+
+	MadCap|indexProxy
+	{
+		border-top: none;
+	}
+
+	MadCap|tocProxy
+	{
+		border-top: none;
+		margin-right: 12px;
+	}
+
+	p
+	{
+		font-size: 12pt;
+		font-family: 'Segoe UI';
+		margin: 0;
+		mc-hyphenate: never;
+		line-height: 16pt;
+		margin-bottom: 10pt;
+	}
+
+	p.FrameFooterText
+	{
+		
+	}
+
+	p.IndexHeading
+	{
+		font-size: 11pt;
+		padding-top: 16px;
+		text-align: left;
+	}
+
+	p.TOC1
+	{
+		font-size: 12pt;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+		margin-bottom: 4pt;
+		margin-top: 6pt;
+	}
+
+	p.TOC2
+	{
+		font-weight: normal;
+		font-family: 'Segoe UI';
+		font-size: 12pt;
+		margin-left: 10pt;
+		margin-bottom: 2pt;
+		margin-top: 2pt;
+	}
+
+	p.TOC3
+	{
+		font-weight: normal;
+		font-family: 'Segoe UI';
+		font-size: 12pt;
+		margin-bottom: 2pt;
+		margin-top: 2pt;
+		margin-left: 20pt;
+	}
+
+	p.TOC4
+	{
+		margin-bottom: 2pt;
+		margin-left: 30pt;
+		margin-top: 2pt;
+	}
+
+	li.numbers
+	{
+		font-size: 12pt;
+		font-family: 'Segoe UI';
+		margin-left: 0pt;
+		margin-bottom: 6pt;
+	}
+
+	li.bullets
+	{
+		font-size: 12pt;
+		font-family: 'Segoe UI';
+		margin-bottom: 6pt;
+		margin-top: 6pt;
+		margin-left: -16pt;
+	}
+
+	a:link
+	{
+		font-size: 12pt;
+		font-family: 'Segoe UI';
+		color: #22b24c;
+		font-weight: bold;
+	}
+
+	a.MCBreadcrumbsLink:hover
+	{
+		color: #22b24c;
+	}
+
+	MadCap|glossaryTerm
+	{
+		color: #22b24c;
+		font-family: 'Segoe UI';
+	}
+
+	a
+	{
+		font-family: 'Segoe UI Semibold';
+	}
+
+	MadCap|variable
+	{
+		font-family: 'Segoe UI';
+		font-weight: normal;
+	}
+
+	p.CompanyNameFull
+	{
+		color: #22b24c;
+		font-size: 12pt;
+		font-family: 'Segoe UI';
+		line-height: 12pt;
+		margin-top: 0pt;
+		font-weight: bold;
+		margin: 0pt;
+		margin-left: 20pt;
+		margin-bottom: 0pt;
+	}
+
+	p.CompanyPhone
+	{
+		color: #808080;
+		font-family: 'Segoe UI';
+		font-size: 12pt;
+		font-weight: bold;
+		margin: 0pt;
+		margin-left: 20pt;
+		line-height: 36pt;
+	}
+
+	p.CompanyAddress
+	{
+		font-size: 12pt;
+		color: #808080;
+		font-family: 'Segoe UI';
+		margin-top: 0pt;
+		margin-bottom: 4pt;
+		font-weight: normal;
+		margin: 0pt;
+		margin-left: 20pt;
+		line-height: 16pt;
+	}
+
+	p.DocumentDate
+	{
+		font-size: 20pt;
+		color: #000000;
+		font-family: 'Segoe UI';
+		font-weight: normal;
+		margin: 0pt;
+		margin-left: 20pt;
+		line-height: 24pt;
+	}
+
+	p.DocumentTitle
+	{
+		color: #000000;
+		font-size: 36pt;
+		margin: 0;
+		margin-bottom: 12pt;
+		margin-top: 36pt;
+		line-height: 56pt;
+		margin-left: 20pt;
+		font-family: Oswald;
+		font-weight: bold;
+	}
+
+	p.DocumentType
+	{
+		font-size: 24pt;
+		color: #22b24c;
+		margin: 0;
+		line-height: 30pt;
+		margin-left: 20pt;
+		font-family: Oswald;
+		font-weight: bold;
+	}
+
+	p.ProprietaryInformation
+	{
+		font-size: 8pt;
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		margin: 0;
+		color: #808080;
+		margin-right: 0pt;
+		margin-left: 20pt;
+		line-height: 12pt;
+		letter-spacing: 0px;
+	}
+
+	p.DocumentVersionFull
+	{
+		color: #000000;
+		font-family: 'Segoe UI';
+		font-size: 20pt;
+		margin: 0pt;
+		line-height: 20pt;
+		margin-left: 20pt;
+	}
+
+	table
+	{
+		border-spacing: 0;
+		width: 100%;
+	}
+
+	p.indented
+	{
+		margin-top: 0pt;
+		margin-bottom: 4pt;
+		margin-left: 17pt;
+	}
+
+	p.indented48
+	{
+		margin-left: 48pt;
+	}
+
+	p.image
+	{
+		margin: 0pt;
+		margin-bottom: 9pt;
+		margin-top: 9pt;
+		line-height: 16pt;
+		margin-left: 17pt;
+	}
+
+	img.Thumbnailoriginal
+	{
+		mc-thumbnail: popup;
+		margin-bottom: 6pt;
+		margin-top: 6pt;
+	}
+
+	MadCap|dropDown
+	{
+		mc-closed-image: none;
+		mc-open-image: none;
+	}
+
+	a:hover
+	{
+		font-family: 'Segoe UI';
+		font-weight: bold;
+	}
+
+	MadCap|glossaryTerm.Popup
+	{
+		mc-closed-image: none;
+		mc-open-image: none;
+	}
+
+	li
+	{
+		mc-hyphenate: never;
+		line-height: 16pt;
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+	}
+
+	p.Contents
+	{
+		border-bottom: none;
+		margin-bottom: 20px;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 0;
+		padding: 0;
+		color: #22b24c;
+		font-weight: bold;
+		font-family: 'Segoe UI';
+		line-height: 36pt;
+		margin: 0pt;
+		page-break-before: always;
+		font-size: 20pt;
+	}
+
+	MadCap|dropDownHead
+	{
+		color: #808080;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+		page-break-after: avoid;
+		font-size: 14pt;
+		mc-heading-level: 2;
+		margin-bottom: 0pt;
+		line-height: 36pt;
+	}
+
+	li.bulletsq
+	{
+		page-break-after: avoid;
+		page-break-inside: avoid;
+		widows: 0;
+		orphans: 0;
+		margin-top: 0pt;
+		line-height: 16pt;
+		margin-bottom: 4pt;
+		list-style-image: url('../Images/FlexTradeStyle/MCF_Bullets_5x5_GreenSquare.png');
+	}
+
+	img.example
+	{
+		margin-left: 48pt;
+		width: 450px;
+		margin-bottom: 12pt;
+		margin-top: 18pt;
+	}
+
+	MadCap|toggler
+	{
+		color: #808080;
+		font-weight: bold;
+		font-size: 12pt;
+		font-family: 'Segoe UI';
+		mc-closed-image: url('../Images/FlexTradeStyle/ExpandingClosed.png');
+		mc-open-image: url('../Images/FlexTradeStyle/ExpandingOpen.png');
+	}
+
+	li.bulletstable
+	{
+		margin-bottom: 0pt;
+		margin-top: 0pt;
+		list-style-image: url('../Images/FlexTradeStyle/MCF_Bullets_5x5_GreenSquare.png');
+	}
+
+	li.bulletsindented
+	{
+		margin-left: 16pt;
+		margin-top: 0pt;
+		margin-bottom: 4pt;
+		list-style-image: url('../Images/FlexTradeStyle/MCF_Bullets_5x5_GreenSquare.png');
+	}
+
+	li.bullets::marker
+	{
+		margin-bottom: 4pt;
+		margin-top: 0pt;
+	}
+
+	ul
+	{
+		margin: 0pt;
+		margin-left: 12pt;
+		line-height: 16pt;
+		margin-bottom: 10pt;
+	}
+
+	li.bulletsqwide
+	{
+		margin-bottom: 6pt;
+		margin-top: 0pt;
+		list-style-image: url('../Images/FlexTradeStyle/MCF_Bullets_5x5_GreenSquare.png');
+	}
+
+	a:visited
+	{
+		font-family: 'Segoe UI';
+		color: #22b24c;
+	}
+
+	a:focus
+	{
+		font-family: 'Segoe UI';
+	}
+
+	a:active
+	{
+		font-family: 'Segoe UI';
+	}
+
+	li.bulletsq::marker
+	{
+		margin-bottom: 2pt;
+	}
+
+	ol
+	{
+		line-height: 16pt;
+		margin: 0pt;
+		margin-left: 16pt;
+		margin-bottom: 10pt;
+		overflow: hidden;
+	}
+
+	img.image620
+	{
+		width: 620px;
+		height: auto;
+		margin-bottom: 9pt;
+		margin-top: 9pt;
+	}
+
+	p.image30
+	{
+		margin-bottom: 9pt;
+		margin-top: 9pt;
+		margin-left: 27pt;
+	}
+
+	p.largeimage
+	{
+		margin-bottom: 9pt;
+		margin-top: 9pt;
+	}
+
+	pre.code
+	{
+		font-family: Consolas;
+		font-size: 10pt;
+		margin: 0pt;
+		line-height: 14pt;
+	}
+
+	p.largeimageprint
+	{
+		margin-bottom: 9pt;
+		margin-top: 9pt;
+	}
+
+	img.Thumbnail400
+	{
+		mc-thumbnail: popup;
+		height: auto;
+		width: 400px;
+		margin-bottom: 6pt;
+		margin-top: 6pt;
+	}
+
+	img.Thumbnail500
+	{
+		mc-thumbnail: popup;
+		height: auto;
+		width: 500px;
+		margin-bottom: 6pt;
+		margin-top: 6pt;
+	}
+
+	img.Thumbnail300
+	{
+		mc-thumbnail: popup;
+		height: auto;
+		width: 300px;
+		margin-bottom: 6pt;
+		margin-top: 6pt;
+	}
+
+	img.image800
+	{
+		width: 800px;
+	}
+
+	img.Thumbnail250
+	{
+		height: auto;
+		width: 250px;
+		margin-bottom: 6pt;
+		margin-top: 6pt;
+	}
+
+	img.Thumbnail100
+	{
+		height: auto;
+		margin-bottom: 6pt;
+		margin-top: 6pt;
+		width: 100px;
+	}
+
+	img.Thumbnail200
+	{
+		height: auto;
+		margin-bottom: 6pt;
+		margin-top: 6pt;
+		width: 200px;
+	}
+
+	h5
+	{
+		font-size: 12pt;
+		color: #808080;
+		line-height: 20pt;
+		font-weight: bold;
+		margin: 0;
+		margin-bottom: 6pt;
+	}
+
+	p.indented30
+	{
+		margin-left: 27pt;
+	}
+
+	p.TOC5
+	{
+		margin-bottom: 2pt;
+		margin-top: 2pt;
+	}
+}
+
+@media non-print
+{
+	span.num
+	{
+		color: #0da344;
+	}
+
+	span.esc
+	{
+		color: #a764cb;
+	}
+
+	span.str
+	{
+		color: #2b83ba;
+	}
+
+	span.pps
+	{
+		color: #2b83ba;
+	}
+
+	span.slc
+	{
+		color: #ababab;
+		font-style: italic;
+	}
+
+	span.com
+	{
+		color: #ababab;
+		font-style: italic;
+	}
+
+	span.ppc
+	{
+		color: #620ac6;
+	}
+
+	span.opt
+	{
+		color: #0000de;
+	}
+
+	span.ipl
+	{
+		color: #cc60a3;
+	}
+
+	span.lin
+	{
+		color: #22b24c;
+	}
+
+	span.kwa
+	{
+		color: #0a7f6d;
+		font-weight: bold;
+	}
+
+	span.kwb
+	{
+		color: #c42638;
+		font-weight: bold;
+	}
+
+	span.kwc
+	{
+		color: #e12f76;
+	}
+
+	span.kwd
+	{
+		color: #2ac749;
+	}
+
+	h1
+	{
+		color: #22b24c;
+		font-size: 20pt;
+		margin: 0;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+		padding-bottom: 0pt;
+		line-height: 20pt;
+		margin-bottom: 12pt;
+		margin-top: 18pt;
+	}
+
+	h2
+	{
+		font-size: 18pt;
+		margin: 0;
+		color: #22b24c;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+		line-height: 20pt;
+		margin-bottom: 12pt;
+		page-break-after: avoid;
+		margin-top: 36pt;
+	}
+
+	h3
+	{
+		font-size: 16pt;
+		color: #22b24c;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+		margin: 0pt;
+		line-height: 20pt;
+		margin-bottom: 12pt;
+		margin-top: 18pt;
+	}
+
+	h4
+	{
+		font-size: 14pt;
+		margin: 0pt;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+		color: #808080;
+		margin-top: 0pt;
+		line-height: 18pt;
+		margin-bottom: 4pt;
+	}
+
+	p
+	{
+		font-family: 'Segoe UI';
+		font-size: 12pt;
+		margin: 0pt;
+		color: #000000;
+		line-height: 16pt;
+		mc-hyphenate: never;
+		margin-bottom: 10pt;
+	}
+
+	h5
+	{
+		font-size: 12pt;
+		line-height: 20pt;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+		color: #808080;
+	}
+
+	li.numbers
+	{
+		font-size: 12pt;
+		margin-top: 0pt;
+		font-family: 'Segoe UI';
+		margin-left: 0pt;
+		margin-bottom: 4pt;
+		line-height: 16pt;
+	}
+
+	b
+	{
+		color: #000000;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+	}
+
+	p.indented
+	{
+		margin: 0pt;
+		margin-top: 0pt;
+		margin-bottom: 4pt;
+		line-height: 16pt;
+		margin-left: 20pt;
+	}
+
+	p.image
+	{
+		line-height: 14pt;
+		margin-top: 2pt;
+		margin-bottom: 4pt;
+		margin-left: 20pt;
+	}
+
+	li.bulletsindented
+	{
+		font-size: 12pt;
+		font-family: 'Segoe UI';
+		margin-top: 0pt;
+		color: #000000;
+		margin-left: 16pt;
+		margin-bottom: 4pt;
+		line-height: 16pt;
+		list-style-image: url('../Images/FlexTradeStyle/MCF_Bullets_6x6_BlackSquare.png');
+	}
+
+	a
+	{
+		color: #22b24c;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+	}
+
+	a:active
+	{
+		color: #22b24c;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+	}
+
+	a:focus
+	{
+		color: #22b24c;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+	}
+
+	a:hover
+	{
+		color: #22b24c;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+	}
+
+	a:link
+	{
+		color: #22b24c;
+		font-weight: bold;
+		font-family: 'Segoe UI';
+	}
+
+	a.MCBreadcrumbsLink:hover
+	{
+		color: #000000;
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+	MadCap|dropDownHead
+	{
+		color: #22b24c;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+		font-size: 14pt;
+		margin: 4pt;
+		margin-bottom: 6pt;
+		line-height: 14pt;
+		margin-top: 12pt;
+	}
+
+	li.bulletstable
+	{
+		margin-top: 0pt;
+		margin-bottom: 4pt;
+		font-size: 12pt;
+		font-family: 'Segoe UI';
+		color: #000000;
+		margin-left: 0pt;
+		line-height: 16pt;
+		list-style-image: url('../Images/FlexTradeStyle/MCF_Bullets_6x6_BlackSquare.png');
+	}
+
+	MadCap|menuProxy
+	{
+		
+	}
+
+	MadCap|glossaryTerm.Expanding
+	{
+		font-style: normal;
+		color: #000000;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+	}
+
+	MadCap|glossaryTerm.Hyperlink
+	{
+		font-weight: normal;
+		font-family: 'Segoe UI Semibold';
+		color: #000000;
+	}
+
+	MadCap|glossaryTerm.Popup
+	{
+		color: #000000;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+		mc-closed-image: url('../Images/FlexTradeStyle/MCF_MoreIcon_CommentGrayOutline12x12.png');
+		mc-open-image: url('../Images/FlexTradeStyle/MCF_MoreIcon_CommentGrayOutline12x12.png');
+	}
+
+	MadCap|glossaryTerm
+	{
+		font-family: 'Segoe UI';
+		mc-closed-image: none;
+		mc-open-image: none;
+		font-weight: normal;
+		color: #000000;
+	}
+
+	body
+	{
+		font-family: 'Segoe UI';
+		margin: 0pt;
+		margin-bottom: 4pt;
+		margin-left: 0pt;
+		margin-right: 0pt;
+		margin-top: 0pt;
+		color: #000000;
+		height: 101%;
+		line-height: 16pt;
+	}
+
+	li.bullets
+	{
+		margin-top: 0pt;
+		font-size: 12pt;
+		font-family: 'Segoe UI';
+		color: #000000;
+		margin-left: 0pt;
+		line-height: 16pt;
+		margin-bottom: 4pt;
+	}
+
+	div.sideContent
+	{
+		float: left;
+		margin-right: 0px;
+		margin-left: 0px;
+		margin-bottom: 0px;
+		width: 100%;
+		height: 100%;
+	}
+
+	MadCap|variable
+	{
+		font-size: 12pt;
+		color: #000000;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+	}
+
+	img.Thumbnailoriginal
+	{
+		mc-thumbnail: popup;
+		margin-top: 2pt;
+		margin-bottom: 4pt;
+	}
+
+	html.templateTopic
+	{
+		mc-master-page: url('../../../../MaxxFX/Content/Resources/MasterPages/OtherTopics.flmsp');
+	}
+
+	MadCap|dropDown
+	{
+		mc-open-image: url('../Images/FlexTradeStyle/SectionCollapse_ArrowGreen.png');
+		mc-closed-image: url('../Images/FlexTradeStyle/SectionExpand_ArrowGreen.png');
+	}
+
+	a.MCBreadcrumbsLink
+	{
+		font-size: 8pt;
+		font-family: 'Segoe UI';
+		font-style: normal;
+		font-weight: normal;
+		color: #000000;
+	}
+
+	a.MCBreadcrumbsLink:visited
+	{
+		color: #000000;
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+	MadCap|popupBody
+	{
+		background-color: #ebebeb;
+		color: #000000;
+	}
+
+	li
+	{
+		margin-top: 0pt;
+		margin-bottom: 0pt;
+		margin-left: 0pt;
+	}
+
+	p.indented48
+	{
+		line-height: 14pt;
+		margin-bottom: 4pt;
+		margin-left: 48pt;
+	}
+
+	MadCap|dropDownHotspot
+	{
+		font-family: 'Segoe UI';
+		font-weight: bold;
+		font-size: 14pt;
+	}
+
+	MadCap|breadcrumbsProxy
+	{
+		font-style: normal;
+		font-size: 8pt;
+		font-weight: bold;
+		font-family: 'Segoe UI';
+	}
+
+	a.MCBreadcrumbsLink:active
+	{
+		font-style: normal;
+		color: #000000;
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+	p.CompanyPhone
+	{
+		font-weight: bold;
+		color: #808080;
+	}
+
+	p.CompanyNameFull
+	{
+		color: #22b24c;
+		font-weight: bold;
+	}
+
+	p.CompanyAddress
+	{
+		color: #808080;
+		font-weight: bold;
+	}
+
+	p.DocumentDate
+	{
+		font-size: 20pt;
+	}
+
+	p.DocumentVersionFull
+	{
+		font-size: 20pt;
+		line-height: 20pt;
+		margin-bottom: 0pt;
+		margin-top: 0pt;
+	}
+
+	p.DocumentType
+	{
+		margin-bottom: 0pt;
+	}
+
+	a:visited
+	{
+		color: #22b24c;
+		font-family: 'Segoe UI';
+		font-weight: bold;
+	}
+
+	img.image800
+	{
+		margin-bottom: 9pt;
+		margin-top: 9pt;
+	}
+
+	div.TopicContent
+	{
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-left: 20px;
+		height: 101%;
+	}
+
+	td
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	table
+	{
+		width: 80%;
+	}
+
+	a.MCBreadcrumbsLink:focus
+	{
+		color: #000000;
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+	a.MCBreadcrumbsLink:link
+	{
+		color: #000000;
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+	li.numbers
+	{
+		margin-bottom: 4pt;
+		margin-top: 0pt;
+		orphans: 2;
+		widows: 2;
+	}
+
+	p.indented
+	{
+		margin-bottom: 4pt;
+		margin-top: 0pt;
+	}
+
+	p.image
+	{
+		margin-bottom: 4pt;
+		margin-top: 0pt;
+	}
+
+	li.bulletsindented
+	{
+		margin-bottom: 4pt;
+		margin-top: 0pt;
+		orphans: 2;
+		widows: 2;
+	}
+
+	li.bulletstable
+	{
+		margin-bottom: 4pt;
+		margin-top: 0pt;
+		orphans: 2;
+		widows: 2;
+	}
+
+	li.bullets
+	{
+		margin-bottom: 4pt;
+		margin-top: 0pt;
+		orphans: 2;
+		widows: 2;
+	}
+
+	li.bulletsq
+	{
+		margin-bottom: 4pt;
+		margin-top: 0pt;
+		orphans: 2;
+		widows: 2;
+		list-style-image: url('../Images/FlexTradeStyle/MCF_Bullets_6x6_BlackSquare.png');
+	}
+
+	p.CompanyPhone
+	{
+		
+	}
+
+	p.CompanyNameFull
+	{
+		
+	}
+
+	p.CompanyAddress
+	{
+		
+	}
+
+	MadCap|snippetBlock.disclaimer
+	{
+		
+	}
+
+	p.DocumentDate
+	{
+		
+	}
+
+	p.DocumentTitle
+	{
+		
+	}
+
+	p.DocumentType
+	{
+		
+	}
+
+	p.DocumentVersionFull
+	{
+		
+	}
+
+	img.cover
+	{
+		
+	}
+
+	img.image800
+	{
+		width: 800px;
+		height: auto;
+	}
+
+	MadCap|glossaryTerm.Expanding:focus
+	{
+		font-family: 'Segoe UI';
+		font-weight: bold;
+	}
+
+	MadCap|glossaryTerm.Expanding:hover
+	{
+		font-family: 'Segoe UI';
+		font-weight: bold;
+	}
+
+	MadCap|glossaryTerm.Hyperlink:focus
+	{
+		font-family: 'Segoe UI';
+		font-weight: bold;
+	}
+
+	MadCap|glossaryProxy
+	{
+		font-family: 'Segoe UI';
+		font-weight: normal;
+		border-top-width: 0px;
+	}
+
+	a.GlossaryPageTerm:link
+	{
+		
+	}
+
+	ul
+	{
+		list-style-type: none;
+		margin-right: 0px;
+		margin-top: 0pt;
+		margin: 0;
+		margin-left: -16pt;
+		margin-bottom: 0pt;
+	}
+
+	Div.GlossaryPageHeading
+	{
+		font-family: 'Segoe UI';
+		margin-bottom: 12pt;
+	}
+
+	Div.GlossaryPageTerm
+	{
+		
+	}
+
+	Div.GlossaryPageDefinition
+	{
+		margin-bottom: 12pt;
+	}
+
+	html.templateTopic div.sideContent
+	{
+		height: 2000px;
+	}
+
+	MadCap|expandingHead
+	{
+		font-family: 'Segoe UI';
+		font-weight: bold;
+		font-size: 12pt;
+		color: #808080;
+	}
+
+	MadCap|expanding
+	{
+		mc-closed-image: url('../Images/FlexTradeStyle/ExpandingClosed.png');
+		mc-open-image: url('../Images/FlexTradeStyle/ExpandingOpen.png');
+		font-family: 'Segoe UI';
+		font-size: 12pt;
+		font-weight: bold;
+	}
+
+	MadCap|expandingBody
+	{
+		font-weight: normal;
+	}
+
+	MadCap|toggler:focus
+	{
+		color: #22b24c;
+		margin-left: 0pt;
+	}
+
+	MadCap|toggler:hover
+	{
+		color: #22b24c;
+		mc-closed-image: url('../Images/FlexTradeStyle/ExpandingClosed.png');
+		mc-open-image: url('../Images/FlexTradeStyle/ExpandingOpen.png');
+		margin-left: 0pt;
+	}
+
+	MadCap|toggler
+	{
+		color: #22b24c;
+		font-weight: bold;
+		margin-left: 0pt;
+		mc-closed-image: url('../Images/FlexTradeStyle/ExpandingClosed.png');
+		mc-open-image: url('../Images/FlexTradeStyle/ExpandingOpen.png');
+	}
+
+	img.example
+	{
+		margin-bottom: 12pt;
+		margin-left: 30pt;
+		margin-top: 6pt;
+	}
+
+	ol
+	{
+		margin-bottom: 0pt;
+		margin-top: 0pt;
+		margin: 0;
+		margin-left: -12pt;
+	}
+
+	li.bulletsqwide
+	{
+		margin-bottom: 6pt;
+		list-style-image: url('../Images/FlexTradeStyle/MCF_Bullets_6x6_BlackSquare.png');
+	}
+
+	p.indented30
+	{
+		margin-left: 30pt;
+	}
+
+	p.image30
+	{
+		margin-left: 30pt;
+	}
+
+	img.image620
+	{
+		width: 620px;
+		height: auto;
+		margin-bottom: 9pt;
+		margin-top: 9pt;
+	}
+
+	pre.code
+	{
+		margin: 0pt;
+		font-size: 10pt;
+		line-height: 14pt;
+		font-family: Consolas;
+	}
+
+	p.largeimageprint
+	{
+		margin-left: 20pt;
+	}
+
+	img.Thumbnail300
+	{
+		mc-thumbnail: popup;
+		height: auto;
+	}
+
+	img.Thumbnail500
+	{
+		mc-thumbnail: popup;
+	}
+
+	img.Thumbnail400
+	{
+		mc-thumbnail: popup;
+	}
+
+	img.Thumbnail250
+	{
+		mc-thumbnail: popup;
+		height: auto;
+	}
+
+	a.GlossaryPageTerm
+	{
+		color: #ff00ff;
+	}
+}
+
+img.example
+{
+	height: auto;
+	width: 600px;
+}
+
+b
+{
+	font-weight: bold;
+}
+
+li.numberedlist
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	orphans: 2;
+	widows: 2;
+	font-size: 12pt;
+	font-family: 'Segoe UI';
+	mc-auto-number-format: ' ';
+	list-style-image: none;
+	text-align: left;
+	position: relative;
+	list-style-type: inherit;
+}
+
+ol.listnumber
+{
+	list-style-type: decimal;
+	list-style-image: none;
+}
+
+ol.listnumber > li::marker
+{
+	content: counter(listnumber) '.  ';
+}
+
+ol.numberedlist
+{
+	list-style-type: decimal;
+	list-style-image: none;
+}
+
+ol.numberedlist > li::marker
+{
+	content: counter(numberedlist) '.  ';
+}
+
+ol.numberedlist > li > ul
+{
+	list-style-image: url('file:///C:/Users/thubbard/Desktop/CUSTOMER_CASES/FlexBar_06012016/Content/Resources/Images/FlexTradeStyle/MCF_Bullets_5x5_GreenSquare.png');
+}
+
+ol.numberedlist > li > ul > li > ol
+{
+	list-style-type: lower-alpha;
+	list-style-image: none;
+}
+
+ol.numberedlist > li > ul > li > ol > li > ol
+{
+	list-style-type: decimal;
+}
+
+ol.numberedlist > li > ul > li > ol > li > ol > li > ol
+{
+	list-style-type: upper-roman;
+}
+
